@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Welcome to my page!"
 title_separator          : "-"
 name                     : &name "Amir Dehsarvi"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Amir Dehsarvi"
   avatar           : "2020.06.04 - Amir Dehsarvi.JPG"
-  bio              : "My key research area is the application of machine learning techniques for the analysis of medical data. I am currently working on the analysis of a marriage of cognitive and multimodal brain imaging data in order to investigate the underlying mechanisms of rheumatoid arthritis related fatigue in the brain. Moreover, I have been involved in the analysis of a combination of speech and brain imaging features for the classification of Alzheimer’s disease patients from patients with mild cognitive impairment, and from healthy participants, aiming to identify speech markers and their underlying neural correlates (brain structure and functional connectivity). Furthermore, my doctoral thesis examined the classification of resting state fMRI data (timeseries analysis and DCM analysis) and movement data, applying different classification techniques (Cartesian Genetic Programming, Artificial Neural Networks, Support Vector Machines, etc.) on extracted features, including validation and k-fold cross-validation methods as well as data balancing techniques. This research has focused on the diagnosis and monitoring of diseases (Parkinson’s disease, autism, etc.), including the classification of Parkinson’s disease patients from healthy controls with an accuracy of 92% and classification of prodromal Parkinson’s disease patients from healthy controls with an accuracy of 75%. I have also classified open resting state fMRI data (available on openfMRI) for participants following treatment with Modafinil versus a placebo. "
+  bio              : "I am a researcher interested in the application of machine learning techniques for the analysis of medical data."
   location         : 
   employer         : "University of Aberdeen"
   pubmed           : 
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/amirdehsarvi"
+  github           : "amirdehsarvi"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/amirdehsarvi/"
+  linkedin         : "amirdehsarvi"
   orcid            : "https://orcid.org/0000-0001-7116-9741"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/amirdehsarvi"
+  twitter          : "amirdehsarvi"
   vine             :
   weibo            :
   xing             :
