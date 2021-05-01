@@ -43,32 +43,11 @@ Work experience
   
 Research Interests
 ======
-* Machine Learning
-  * Supervised Learning
-    * Evolutionary Algorithms
-      * Cartesian Genetic Programming
-  * Deep Learning
-* MRI/fMRI data analysis
-* Neurodegenerative diseases diagnosis (biomarkers) and monitoring
+Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, Evolutionary Algorithms, MRI/fMRI data analysis, Mediation Analysis, and Neurodegenerative Diseases Diagnosis (Biomarkers) and Monitoring.
 
 Technical Skills
 ======
-* Machine Learning
-  * Supervised Learning
-    * Evolutionary Algorithms
-      * Cartesian Genetic Programming
-  * Deep Learning (CNNs, RNNs, TensorFlow, PyTorch, XGBoost, Scikit-learn, etc.)
-* Git
-* Programming Environment/Languages
-  * MATLAB
-  * R
-  * C
-  * Python
-* fMRI Data Analysis Software Packages
-  * SPM
-  * CONN
-  * FSL
-* AI-Based Medical Devices
+Machine Learning, Deep Learning (e.g., CNNs, RNNs, Tensorflow, PyTorch, XGBoost, Scikit-learn), Git, fMRI data analysis software packages (SPM, CONN, and FSL), MATLAB, C, R, Python (including multiple libraries, nuances with coding styles, building/using APIs, unit testing), Linux, AI-based medical devices, advanced statistics, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
 
 Publications
 ======
