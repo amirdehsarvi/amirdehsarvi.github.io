@@ -84,7 +84,7 @@ Service and leadership
 * 2021: Reviewer for journal of Genetic Programming and Evolvable Machines.
 * 2021: Conference committee member of <a href="http://www.evostar.org/2021/evoapps/">EvoApplications&#42;</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2021, held in Seville (Spain).
 * 2020: Conference committee member of <a href="http://www.evostar.org/2020/evoapps/">EvoApplications&#42;</a>, 23rd European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2020, held in Seville (Spain).
-* 2020: Conference committee member of <a href="https://www.socpros20.scrs.in/">The 10th International Conference on Soft Computing for Problem Solving (SocProS 2020)></a>, held in Indore (India).
+* 2020: Conference committee member of <a href="https://www.socpros20.scrs.in/">The 10th International Conference on Soft Computing for Problem Solving (SocProS 2020)</a>, held in Indore (India).
 * 2017-2019: Association for Computing Machinery member.
 * 2014-2018: IEEE student member.
 * 2016: Conference committee member of The International Conference for Students on Applied Engineering (ICSAE 2016) held in Newcastle upon Tyne (UK).
