@@ -1,7 +1,7 @@
 ---
 title: "Classification of resting-state fMRI for olfactory dysfunction in Parkinson’s disease using evolutionary algorithms."
 collection: publications
-permalink: /publication/2018-GECCO
+permalink: /publication/2018GECCO
 excerpt: 'This paper develops automatic methods for detecting brain imaging preclinical biomarkers for olfactory dysfunction in early stage Parkinson's disease (PD) by considering the novel application of evolutionary algorithms. Classification will be applied to PD patients with severe hyposmia, patients with no/mild hyposmia, and healthy controls.'
 date: 2018-07-15
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference Companion on - GECCO 2018'
