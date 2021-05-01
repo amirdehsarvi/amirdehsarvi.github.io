@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /cv-dehsarvi/
 author_profile: true
 redirect_from:
   - /resume
@@ -44,23 +44,31 @@ Work experience
 Research Interests
 ======
 * Machine Learning
-  * Evolutionary Algorithms
-    * Cartesian Genetic Programming
+  * Supervised Learning
+    * Evolutionary Algorithms
+      * Cartesian Genetic Programming
   * Deep Learning
 * MRI/fMRI data analysis
 * Neurodegenerative diseases diagnosis (biomarkers) and monitoring
 
-IT Skills
+Technical Skills
 ======
+* Machine Learning
+  * Supervised Learning
+    * Evolutionary Algorithms
+      * Cartesian Genetic Programming
+  * Deep Learning (CNNs, RNNs, TensorFlow, PyTorch, XGBoost, Scikit-learn, etc.)
+* Git
 * Programming Environment/Languages
   * MATLAB
   * R
-  * Python
   * C
-* fMRI data analysis software packages
+  * Python
+* fMRI Data Analysis Software Packages
   * SPM
   * CONN
   * FSL
+* AI-Based Medical Devices
 
 Publications
 ======
