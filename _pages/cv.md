@@ -6,9 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
 ---
+{% include base_path %}
 Current Positions
 ======
 * 13.01.2020 to date (currently until 31.07.2021): Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
