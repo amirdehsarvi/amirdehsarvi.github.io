@@ -80,7 +80,7 @@ Teaching
   
 Service and leadership
 ======
-* 2021: SINAPSE-IA<http://www.sinapse.ac.uk/research-resources/topic-groups#IA> Deputy Lead
+* 2021: <a href="http://www.sinapse.ac.uk/research-resources/topic-groups#IA">SINAPSE-IA</a> Deputy Lead
 * 2021: Reviewer for journal of Genetic Programming and Evolvable Machines.
 * 2021: Conference committee member of <a href="http://www.evostar.org/2021/evoapps/">EvoApplications*</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2021, held in Seville (Spain).
 * 2020: Conference committee member of <a href="http://www.evostar.org/2020/evoapps/">EvoApplications*</a>, 23rd European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2020, held in Seville (Spain).
