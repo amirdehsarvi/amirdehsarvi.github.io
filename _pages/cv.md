@@ -9,6 +9,9 @@ redirect_from:
 
 
 {% include base_path %}
+
+Download a copy of my <a href="/files/CV-Dehsarvi.pdf">CV</a>.
+
 Current Positions
 ======
 * 13.01.2020 to date (currently until 31.07.2021): Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
