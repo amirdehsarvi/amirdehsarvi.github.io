@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download a copy of my <a href="/files/CV-Dehsarvi.pdf">CV</a>.
+Download a copy of my <a href="https://amirdehsarvi.github.io/files/CV-Dehsarvi.pdf">CV</a>.
 
 Current Positions
 ======
