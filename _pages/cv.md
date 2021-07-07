@@ -50,7 +50,7 @@ Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, 
 
 Technical Skills
 ======
-Machine Learning, Deep Learning (e.g., CNNs, RNNs, Tensorflow, PyTorch, XGBoost, Scikit-learn), Git, fMRI data analysis software packages (SPM, CONN, and FSL), MATLAB, C, R, Python (including multiple libraries, nuances with coding styles, building/using APIs, unit testing), Linux, AI-based medical devices, advanced statistics, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
+Machine Learning, Deep Learning, Git, MRI/fMRI data analysis software packages (SPM, CONN, and FSL), MATLAB, C, R, Python, Linux, AI-based medical devices, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
 
 Publications
 ======
