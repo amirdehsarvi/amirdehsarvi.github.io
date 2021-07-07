@@ -8,4 +8,4 @@ date: 2021-07-07
 location: "Virtual Zoom Meeting, UK"
 ---
 
-I talked about my work on identifying brain imaging and non-imaging biomarkers using machine learning techniques for diagnosis/treatment of different diseases, including rheumatoid arthritis, Alzheimer&#39;s disease, and Parkinson&#39;s disease.
+I talked about how Evolutionary Algorithms can be used for identifying biomarkers in different modalities to help with the diagnosis and treatment of different diseases, including rheumatoid arthritis, Alzheimer&#39;s disease, and Parkinson&#39;s disease.
