@@ -8,4 +8,4 @@ date: 2021-05-10
 location: "London, UK"
 ---
 
-I talked about my work on identifying brain imaging and non-imaging biomarkers using machine learning techniques for diagnosis/treatment of different diseases, including rheumatoid arthritis, Alzheimer&#39;s disease, and Parkinson&#39;s disease.
+I talked about my work on how I have used different machine learning techniques for the analysis of biomedical data in order to identify different approaches and methods to help with the diagnosis and treatment of different diseases, including chronic diseases with fatigue as a symptom, and neurodegenerative diseases, such as Alzheimer&#39;s disease, and Parkinson&#39;s disease.
