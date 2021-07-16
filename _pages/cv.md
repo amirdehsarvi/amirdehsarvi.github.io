@@ -40,6 +40,7 @@ _CGP Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for
 
 Work experience
 ======
+* 2021: Machine Learning and Image Processing Engineer, <a href="https://smartr.ai">smartR.ai</a>, located in the Silicon Valley, smartR.ai is experienced in delivering solutions in the embedded marketspace. The company has worked on Machine Vision, Robotics, Fintech, Medical, and Consumer products for customers worldwide.
 * 2014-2018: Technical Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>, a spinout company which specialises in medical devices for the diagnosis and monitoring of Parkinson’s disease, Alzheimer’s disease and a range of other neurodegenerative conditions.
 * 2016-2017: Professional Engineer, My Therapy Tools Ltd., a start-up company involved in the Horizon 2020 EU programme with the project <a href="https://cordis.europa.eu/project/id/745431">“Acquired brain injury telerehabilitation system with high impact in patient’s wellbeing at limited cost”</a> under SME instrument phase 1 funding scheme.
 * 2010-2012: Control Engineer, working in ‘Padideh Control Engineering’ Office. Programming and installing PLC devices.
