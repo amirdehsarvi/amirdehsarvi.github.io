@@ -14,7 +14,7 @@ redirect_from:
 
 Current Positions
 ======
-* 01.10.2021 to date: Research Associate, Department of Electronic Engineering at the University of York (UK)
+* 01.10.2021 to 31.01.2022: Research Associate, Department of Electronic Engineering at the University of York (UK)
 * 01.08.2021 to date: Honarary Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
@@ -75,10 +75,12 @@ Teaching
   
 Service and leadership
 ======
+* 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Seville (Spain).
+* 2021: Reviewer for the journal of Frontiers in Human Neuroscience.
 * 2021: <a href="http://www.sinapse.ac.uk/research-resources/topic-groups#IA">SINAPSE-IA</a> Deputy Lead
-* 2021: Reviewer for journal of Genetic Programming and Evolvable Machines.
-* 2021: Conference committee member of <a href="http://www.evostar.org/2021/evoapps/">EvoApplications&#42;</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2021, held in Seville (Spain).
-* 2020: Conference committee member of <a href="http://www.evostar.org/2020/evoapps/">EvoApplications&#42;</a>, 23rd European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2020, held in Seville (Spain).
+* 2021: Reviewer for the journal of Genetic Programming and Evolvable Machines.
+* 2021: Conference committee member of <a href="http://www.evostar.org/2021/evoapps/">EvoApplications&#42;</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2021, held virtually.
+* 2020: Conference committee member of <a href="http://www.evostar.org/2020/evoapps/">EvoApplications&#42;</a>, 23rd European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2020, held virtually.
 * 2020: Conference committee member of <a href="https://www.socpros20.scrs.in/">The 10th International Conference on Soft Computing for Problem Solving (SocProS 2020)</a>, held in Indore (India).
 * 2017-2019: Association for Computing Machinery member.
 * 2014-2018: IEEE student member.
