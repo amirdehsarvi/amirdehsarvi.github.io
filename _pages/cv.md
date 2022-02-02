@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-**Download a copy of my <a href="https://amirdehsarvi.github.io/files/CV-Dehsarvi.pdf">CV</a>.**
+**Download a copy of my <a href="https://amirdehsarvi.github.io/files/CV_Dehsarvi.pdf">CV</a>.**
 
 Current Positions
 ======
-* 01.10.2021 to 31.01.2022: Research Associate, Department of Electronic Engineering at the University of York (UK)
+* 15.02.2022 to date: Research Fellow, The Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München (LMU), University of Munich (Germany)
 * 01.08.2021 to date: Honarary Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
@@ -23,6 +23,7 @@ Current Positions
 
 Previous Research Positions
 ======
+* 01.10.2021 to 31.01.2022: Research Associate, Department of Electronic Engineering at the University of York (UK)
 * 2020-2021: Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
 Supervised by <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr Gordon Waiter</a>, in collaboration with <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Dr Neil Basu</a>. In this research project, I am working with a multidisciplinary team of clinicians and scientists who are focused upon unravelling the mechanisms of chronic fatigue, a salient issue across the chronic disease spectrum in the multicentre large project of The <a href="https://clinicaltrials.gov/ct2/show/NCT03248518">Lessening the Impact of Fatigue Trial (LIFT)</a>. Specifically, I am working on the analysis and understanding of a multimodal MRI/fMRI brain study, using machine learning techniques (including Evolutionary Algorithms), in order to identify potential central neurobiological correlates of rheumatoid arthritis related fatigue and to then characterise the most plausible mediators of fatigue which may be feasibly targeted in the future.
 * 2017-2020: EMS Technical and Data Coordinator for <a href="https://penctu.psmd.plymouth.ac.uk/pdstat/">PD-STAT</a> research study, Simvastatin as a Neuroprotective Treatment for Parkinson’s disease, a trial of 235 participants from 23 participating NHS hospitals across the UK.
