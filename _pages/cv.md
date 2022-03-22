@@ -14,7 +14,7 @@ redirect_from:
 
 Current Positions
 ======
-* 01.03.2022 to date: Research Fellow, The Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München (LMU), University of Munich (Germany)
+* 01.03.2022 to date: Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), The Ludwig-Maximilians-University Munich Medical Center (Germany)
 * 01.08.2021 to date: Honarary Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
 * 2020 to date: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
