@@ -14,4 +14,3 @@ This paper reports an automated approach to the clinical monitoring of Parkinson
 [Download paper here](https://doi.org/10.1007/978-3-031-09282-4_17)
 
 Recommended citation: Dehsarvi, A., South Palomares, J.K., Smith, S.L. (2022). Towards Automated Monitoring of Parkinson&#39;s Disease Following Drug Treatment. In: El Yacoubi, M., Granger, E., Yuen, P.C., Pal, U., Vincent, N. (eds) Pattern Recognition and Artificial Intelligence. ICPRAI 2022. Lecture Notes in Computer Science, vol 13364. Springer, Cham. https://doi.org/10.1007/978-3-031-09282-4_17.
-
