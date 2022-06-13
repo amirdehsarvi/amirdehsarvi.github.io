@@ -2,7 +2,7 @@
 title: "The Application of Evolutionary Algorithms for the Analysis of Biomedical Data"
 collection: talks
 type: "Talk"
-permalink: /talks/Imperial0521
+permalink: /talks/202105Imperial
 venue: "Imperial College London"
 date: 2021-05-10
 location: "London, UK"
