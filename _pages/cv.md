@@ -50,11 +50,11 @@ Work experience
   
 Research Interests
 ======
-Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, Evolutionary Algorithms, MRI/fMRI data analysis, Mediation Analysis, and Neurodegenerative Diseases Diagnosis (Biomarkers) and Monitoring.
+Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, Evolutionary Algorithms, Neuroimaging data analysis, Mediation Analysis, and Neurodegenerative Diseases Diagnosis (Biomarkers) and Monitoring.
 
 Technical Skills
 ======
-Machine Learning, Deep Learning, Git, MRI/fMRI data analysis software packages (SPM, CONN, and FSL), MATLAB, C, R, Python, Linux, AI-based medical devices, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
+Machine Learning, Deep Learning, Git, Neuroimaging data analysis software packages, MATLAB, C, R, Python, Shell, AI-based medical devices, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
 
 Publications
 ======
@@ -76,6 +76,8 @@ Teaching
   
 Service and leadership
 ======
+* 2023: Conference committee member of <a href="http://www.evostar.org/2023/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Brno (Czech Reublic).
+* 2022: Conference committee member of <a href="https://iconip2022.apnns.org/">ICONIP 2022&#42;</a>, 29th International Conference on Neural Information Processing, in New Delhi (India).
 * 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 25th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Madrid (Spain).
 * 2021: Reviewer for the journal of Frontiers in Human Neuroscience.
 * 2021: <a href="http://www.sinapse.ac.uk/research-resources/topic-groups#IA">SINAPSE-IA</a> Deputy Lead
