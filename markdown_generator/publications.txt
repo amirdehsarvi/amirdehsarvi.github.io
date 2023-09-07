@@ -1,0 +1,99 @@
+         Title Cognitive and structural correlates of conversational speech timing in mild cognitive impairment and mild-to-moderate Alzheimer's disease: Relevance for …
+           URL https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full
+          Year 2021
+     Citations 8
+      Versions 11
+    Cluster ID 9516064151827422317
+Citations list https://scholar.google.com/scholar?cites=9516064151827422317&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list https://scholar.google.com/scholar?cluster=9516064151827422317&hl=en&as_sdt=0,5
+       Excerpt Background: Increasing efforts have focused on the establishment of novel biomarkers for the early detection of Alzheimer's disease (AD) and prediction of Mild Cognitive Impairment …
+
+         Title Structural correlates of overt sentence Reading in mild cognitive impairment and mild-to-moderate Alzheimer's disease
+           URL https://www.ingentaconnect.com/content/ben/car/2022/00000019/00000008/art00004
+          Year 2022
+     Citations 1
+      Versions 3
+    Cluster ID 13083108971545747025
+Citations list https://scholar.google.com/scholar?cites=13083108971545747025&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list https://scholar.google.com/scholar?cluster=13083108971545747025&hl=en&as_sdt=0,5
+       Excerpt Background: Overt sentence reading in mild cognitive impairment (MCI) and mild-tomoderate Alzheimer's disease (AD) has been associated with slowness of speech …
+
+         Title Artificial intelligence for dementia research methods optimization
+           URL https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.13441
+          Year 2023
+     Citations 1
+      Versions 8
+    Cluster ID 14986270296248016916
+      PDF link https://alz-journals.onlinelibrary.wiley.com/doi/pdf/10.1002/alz.13441
+Citations list https://scholar.google.com/scholar?cites=14986270296248016916&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list https://scholar.google.com/scholar?cluster=14986270296248016916&hl=en&as_sdt=0,5
+       Excerpt Artificial intelligence (AI) and machine learning (ML) approaches are increasingly being used in dementia research. However, several methodological challenges exist that may limit …
+
+         Title Artificial intelligence for biomarker discovery in Alzheimer's disease and dementia
+           URL https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.13390
+          Year 2023
+     Citations 0
+      Versions 7
+    Cluster ID 18224277210969141375
+      PDF link https://alz-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.13390
+ Versions list https://scholar.google.com/scholar?cluster=18224277210969141375&hl=en&as_sdt=0,5
+       Excerpt With the increase in large multimodal cohorts and high‐throughput technologies, the potential for discovering novel biomarkers is no longer limited by data set size. Artificial …
+
+         Title Characterising the neurobiological mechanisms of action of exercise and cognitive behavioural interventions for rheumatoid arthritis fatigue: an MRI brain study
+           URL https://www.medrxiv.org/content/10.1101/2023.08.23.23294366.abstract
+          Year 2023
+     Citations 0
+      Versions 2
+    Cluster ID 1761043237071052085
+      PDF link https://www.medrxiv.org/content/10.1101/2023.08.23.23294366.full.pdf
+ Versions list https://scholar.google.com/scholar?cluster=1761043237071052085&hl=en&as_sdt=0,5
+       Excerpt Background: Chronic Fatigue is a major clinical unmet need among patients with Rheumatoid Arthritis (RA). Current therapies are limited to non-pharmacological …
+
+         Title Classification of resting-state fMRI using evolutionary algorithms: towards a brain imaging biomarker for Parkinson's disease
+           URL https://arxiv.org/abs/1910.05378
+          Year 1910
+     Citations 4
+      Versions 9
+    Cluster ID 3883111237863143909
+      PDF link https://arxiv.org/pdf/1910.05378
+Citations list https://scholar.google.com/scholar?cites=3883111237863143909&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list https://scholar.google.com/scholar?cluster=3883111237863143909&hl=en&as_sdt=0,5
+       Excerpt Accurate early diagnosis and monitoring of neurodegenerative conditions is essential for effective disease management and delivery of medication and treatment. This research …
+
+         Title Classification of resting-state fMRI for olfactory dysfunction in parkinson's disease using evolutionary algorithms
+           URL https://dl.acm.org/doi/abs/10.1145/3205651.3205681
+          Year 2018
+     Citations 2
+      Versions 4
+    Cluster ID 12377899466981296067
+      PDF link https://aura.abdn.ac.uk/bitstream/handle/2164/14637/AD_GECCO2018_Published_Copy.pdf?sequence=1
+Citations list https://scholar.google.com/scholar?cites=12377899466981296067&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list https://scholar.google.com/scholar?cluster=12377899466981296067&hl=en&as_sdt=0,5
+       Excerpt Accurate early diagnosis and monitoring of neurodegenerative conditions is essential for effective disease management and treatment. This research develops automatic methods for …
+
+         Title Towards Automated Monitoring of Parkinson's Disease Following Drug Treatment
+           URL https://link.springer.com/chapter/10.1007/978-3-031-09282-4_17
+          Year 2022
+     Citations 0
+      Versions 7
+    Cluster ID 1956578483387127943
+      PDF link https://arxiv.org/pdf/1911.03439
+ Versions list https://scholar.google.com/scholar?cluster=1956578483387127943&hl=en&as_sdt=0,5
+       Excerpt This paper reports an automated approach to the clinical monitoring of Parkinson's disease (PD) by applying Evolutionary Algorithms (EAs) to resting-state functional magnetic imaging …
+
+         Title Increased CSF GAP-43 is associated with accelerated tau accumulation and spread in Alzheimer's disease
+           URL https://alz.confex.com/alz/2023/meetingapp.cgi/Paper/80039
+          Year 2023
+     Citations 0
+      Versions 2
+    Cluster ID 10667537703828622808
+ Versions list https://scholar.google.com/scholar?cluster=10667537703828622808&hl=en&as_sdt=0,5
+
+         Title The effect of local versus remote Beta-Amyloid on functional connectivity mediated Tau-Spread in Alzheimer's Disease
+           URL https://alz.confex.com/alz/2023/meetingapp.cgi/Paper/81917
+          Year 2023
+     Citations 0
+      Versions 2
+    Cluster ID 12880833417866189652
+ Versions list https://scholar.google.com/scholar?cluster=12880833417866189652&hl=en&as_sdt=0,5
+
