@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -13,10 +13,10 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %}
 
 
----
+<!-- ---
 layout: page
 title: "Publications"
 permalink: /publications/
@@ -42,5 +42,5 @@ author_profile: true
     </li>
   {% endfor %}
 </ul>
-
+ -->
 
