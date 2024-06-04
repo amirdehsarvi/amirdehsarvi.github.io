@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "Amir Dehsarvi"
-excerpt: "About me"
+title: "Amir Dehsarvi - About"
+excerpt: "About Amir Dehsarvi"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# About Amir Dehsarvi
 
 ## Professional Experience
 
