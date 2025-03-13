@@ -14,27 +14,27 @@ redirect_from:
 
 Current Positions
 ======
-* 01.03.2022 to date: Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), The Ludwig-Maximilians-University Munich Medical Center (Germany)
-* 01.08.2021 to date: Honarary Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
-* 2020 to date: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
-* 2020 to date: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
-* 2020 to date: EMS Technical and Data Coordinator for two different research studies in Ruijin (China).
-* 01.07.2018 to date: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
+* 2022 to date: Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), The Ludwig-Maximilians-University Munich Medical Center (Germany)
+* 2018 to date: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
 
 Previous Research Positions
 ======
-* 01.10.2021 to 31.01.2022: Research Associate, Department of Electronic Engineering at the University of York (UK)
+* 2021-2022: Research Associate, Department of Electronic Engineering at the University of York (UK)
+Using a proven white-box machine learning approach developed previously, in this project, we used resting brain scans from a large existing dataset (the UK Biobank) to generate new algorithms that can identify participants with depression from healthy volunteers.
+* 2020-2024: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
+* 2020-2024: EMS Technical and Data Coordinator for two different research studies in Ruijin (China).
+* 2020-2024: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
 * 2020-2021: Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
-Supervised by <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr Gordon Waiter</a>, in collaboration with <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Dr Neil Basu</a>. In this research project, I am working with a multidisciplinary team of clinicians and scientists who are focused upon unravelling the mechanisms of chronic fatigue, a salient issue across the chronic disease spectrum in the multicentre large project of The <a href="https://clinicaltrials.gov/ct2/show/NCT03248518">Lessening the Impact of Fatigue Trial (LIFT)</a>. Specifically, I am working on the analysis and understanding of a multimodal MRI/fMRI brain study, using machine learning techniques (including Evolutionary Algorithms), in order to identify potential central neurobiological correlates of rheumatoid arthritis related fatigue and to then characterise the most plausible mediators of fatigue which may be feasibly targeted in the future.
+Supervised by <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr Gordon Waiter</a>, in collaboration with <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Dr Neil Basu</a>. In this research project, I worked with a multidisciplinary team of clinicians and scientists on unravelling the mechanisms of chronic fatigue, a salient issue across the chronic disease spectrum in the multicentre large project of The <a href="https://clinicaltrials.gov/ct2/show/NCT03248518">Lessening the Impact of Fatigue Trial (LIFT)</a>. Specifically, I focused on the analysis and understanding of a multimodal MRI/fMRI brain study, using machine learning techniques (including and not limited to Evolutionary Algorithms), in order to identify potential central neurobiological correlates of rheumatoid arthritis related fatigue and to then characterise the most plausible mediators of fatigue which may be feasibly targeted in the future.
 * 2017-2020: EMS Technical and Data Coordinator for <a href="https://penctu.psmd.plymouth.ac.uk/pdstat/">PD-STAT</a> research study, Simvastatin as a Neuroprotective Treatment for Parkinson’s disease, a trial of 235 participants from 23 participating NHS hospitals across the UK.
-* 01.02.2019-01.08.2019: Post-Doctoral Researcher in Neuroimaging, The Neural Engineering Group within the Trinity Centre for Bioengineering and the Trinity College Institute of Neuroscience at the University of Dublin (Ireland)
+* 2019: Post-Doctoral Researcher in Neuroimaging, The Neural Engineering Group within the Trinity Centre for Bioengineering and the Trinity College Institute of Neuroscience at the University of Dublin (Ireland)
 Supervised by <a href="https://reillylab.net/celinedelooze">Dr Céline de Looze</a> and <a href="https://reillylab.net/richard-reilly">Professor Richard Reilly</a>. In this research project, we investigated the impact cognitive impairment may have on a person’s ability to communicate and how, in turn, such cognitive and speech difficulties may affect the quality of their day-to-day interactions. This research identified speech markers and their underlying neural correlates (brain structure and functional connectivity) for the detection of cognitive impairment in MCI and AD. It also established efficient communications strategies between a person with MCI or AD and their caregivers in order to enhance the quality of their day-to-day interactions.
 
 Education
 ======
 * 2014-2018: PhD Electronic Engineering, University of York (UK). Supervision: <a href="https://www.york.ac.uk/electronic-engineering/staff/stephen_smith/">Professor Stephen L. Smith</a>.
 
-_CGP Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson’s Disease._ Topics examined included the analysis of resting state fMRI data using Dynamic Causal Modeling and timeseries analysis. The extracted features from the analyses were then subjected to the classifiers that were developed based on Cartesian Genetic Programming, Artificial Neural Networks, and Support Vector Machines.
+_Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson’s Disease._ Topics examined included the analysis of resting state fMRI data using Dynamic Causal Modeling and timeseries analysis. The extracted features from the analyses were then subjected to the classifiers that were developed based on Cartesian Genetic Programming, Artificial Neural Networks, and Support Vector Machines.
 
 * 2017: Translate: Me – Innovation Bootcamp, Translate: Medical Technologies (UK).
 * 2015: Higher Education Academy Associate Fellow Status, following completion of York Learning and Teaching Award, University of York (UK): 1/3 of a PG Certificate in Higher Education.
@@ -54,7 +54,7 @@ Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, 
 
 Technical Skills
 ======
-Machine Learning, Deep Learning, Git, Neuroimaging data analysis software packages, MATLAB, C, R, Python, Shell, AI-based medical devices, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
+Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, AI-based medical devices.
 
 Publications
 ======
@@ -76,6 +76,8 @@ Teaching
   
 Service and leadership
 ======
+* 2024: Reviewer for the journal of Neural Computing and Applications
+* 2024: Conference committee member of <a href="http://www.evostar.org/2024/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Wales (United Kingdom).
 * 2023: Conference committee member of <a href="http://www.evostar.org/2023/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Brno (Czech Reublic).
 * 2022: Conference committee member of <a href="https://iconip2022.apnns.org/">ICONIP 2022&#42;</a>, 29th International Conference on Neural Information Processing, in New Delhi (India).
 * 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 25th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Madrid (Spain).
