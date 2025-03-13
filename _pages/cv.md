@@ -76,8 +76,9 @@ Teaching
   
 Service and leadership
 ======
+* 2024: Reviewer for the journal of Health Science Reports
 * 2024: Reviewer for the journal of Neural Computing and Applications
-* 2024: Conference committee member of <a href="http://www.evostar.org/2024/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Wales (United Kingdom).
+* 2024: Conference committee member of <a href="http://www.evostar.org/2024/evoapps/">EvoApplications&#42;</a>, 27th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2024, held in Wales (United Kingdom).
 * 2023: Conference committee member of <a href="http://www.evostar.org/2023/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Brno (Czech Reublic).
 * 2022: Conference committee member of <a href="https://iconip2022.apnns.org/">ICONIP 2022&#42;</a>, 29th International Conference on Neural Information Processing, in New Delhi (India).
 * 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 25th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Madrid (Spain).
