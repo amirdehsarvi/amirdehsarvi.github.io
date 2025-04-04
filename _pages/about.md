@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Amir Dehsarvi
-
 ## Professional Experience
 
 I am a machine learning/deep learning scientist with extensive experience in various research positions at prestigious institutions such as The Ludwig-Maximilians-University Munich Medical Center, The University of York, The University of Aberdeen, and Trinity College Dublin. Additionally, I have worked in diverse biomedical companies, including roles as Chief Technology Officer at [ClearSky Medical Diagnostics Ltd.](https://www.clearskymd.com), machine learning and image processing engineer at [smartR.ai](https://smartr.ai), and Professional Engineer at My Therapy Tools Ltd. under the EU Horizon 2020 program.
