@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Amir Dehsarvi - About"
-excerpt: "About Amir Dehsarvi"
+title: "Dr. Amir Dehsarvi"
+excerpt: 
 author_profile: true
 redirect_from: 
   - /about/
