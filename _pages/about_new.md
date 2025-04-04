@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
 I am a Machine Learning Engineer & Data Scientist with expertise in AI-driven medical technologies, neuroimaging, and high-performance computing. I have extensive experience developing and optimizing ML/DL models for healthcare applications, with a strong background in Python, MATLAB, R, and deep learning frameworks. My work demonstrates a proven ability to build scalable data pipelines, automate complex workflows, and integrate AI solutions into real-world applications. I am passionate about leveraging data science and ML to drive innovation in health tech and beyond.
 
 ## Professional Experience
