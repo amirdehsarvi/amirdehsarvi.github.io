@@ -18,7 +18,7 @@ My research focuses on the application of machine learning/deep learning for ana
 
 ## Collaborations
 
-I have collaborated with renowned researchers such as [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), [Dr. Moriarty](https://www.york.ac.uk/healthsciences/our-staff/andrew-moriarty/), [Dr. Paton](https://www.york.ac.uk/healthsciences/our-staff/lewis-paton/), and [Dr. Dutta](https://personalpages.manchester.ac.uk/staff/arpan.dutta/) on projects focusing on objective assessment of depression from rsfMRI brain scans and investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain. Additionally, I have contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
+I have collaborated with renowned researchers such as [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), [Dr. Moriarty](https://www.york.ac.uk/institute-of-mental-health-research/our-members/staffmembers-sciences/andrewmoriarty/), [Dr. Paton](https://www.york.ac.uk/healthsciences/our-staff/lewis-paton/), and [Dr. Dutta](https://www.researchgate.net/profile/Arpan-Dutta-3) on projects focusing on objective assessment of depression from rsfMRI brain scans and investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain. Additionally, I have contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
 
 ## Education
 
