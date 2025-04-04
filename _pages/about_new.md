@@ -17,6 +17,7 @@ I am a Machine Learning Engineer & Data Scientist with expertise in AI-driven me
 * **2022 to Date:** Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München (LMU), University of Munich (Germany).
     * Developed and integrated an automated neuroimaging preprocessing pipeline (using Python, MATLAB, R, Shell) for multiple modalities (MRI, fMRI, PET, DTI) into the [GRIP platform](https://www.grip-research.org/platform), a Gates Ventures initiative, optimizing data quality and analysis. This pipeline's effectiveness is demonstrated by its use in over 25 peer-reviewed publications (2023-present) in neurodegenerative disease research.
     * Developed, validated, and deployed a deep learning model to infer full Alzheimer's disease A/T/N classification from single tau-PET scans, achieving high predictive accuracy for amyloid-PET (r=0.8) and MRI grey matter density (r=0.76).
+    * In addition to my research, I manage the High-Performance Computing (HPC) resources and provide support to research labs for their data analysis needs on the HPC.
 * **2018 to Date:** Chief Technology Officer, [ClearSky Medical Diagnostics Ltd.](https://www.clearskymd.com), York (UK).
     * Contributed to the development of machine learning (ML)-based medical devices for diagnosing and monitoring neurodegenerative conditions, including PD-Monitor, LID-Monitor, and MCI-Monitor.
     * Optimized ML for movement disorder analysis, enhancing diagnostic precision.
