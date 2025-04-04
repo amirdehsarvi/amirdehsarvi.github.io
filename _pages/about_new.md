@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Amir Dehsarvi"
+title: 
 excerpt:
 author_profile: true
 redirect_from:
