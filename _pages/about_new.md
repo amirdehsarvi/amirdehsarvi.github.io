@@ -51,4 +51,4 @@ I have collaborated with renowned researchers such as Prof. Smith, Dr. Moriarty,
 
 ## Technical Skills
 
-Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, Docker, Linux, AI-based medical devices, Simatic Manager, Easyveep, Keil uVision, ORCAD, Proteus, Model Sim, Questa Sim, Xilinx Software package, ESystem, and Praat.
+Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, Docker, Linux, AI-based medical devices.
