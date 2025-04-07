@@ -59,11 +59,10 @@ Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performan
 Publications
 ======
 
-  <!-- 
+  ```html
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-    {% endfor %}</ul>
-  -->
+  {% endfor %}</ul>
 
 
   <ul>{% for post in site.publications %}
