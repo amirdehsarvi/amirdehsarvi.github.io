@@ -76,6 +76,7 @@ Teaching
   
 Service and leadership
 ======
+* 2025: Reviewer for the journal of Neural Computing and Applications
 * 2024: Reviewer for the journal of Health Science Reports
 * 2024: Reviewer for the journal of Neural Computing and Applications
 * 2024: Conference committee member of <a href="http://www.evostar.org/2024/evoapps/">EvoApplications&#42;</a>, 27th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2024, held in Wales (United Kingdom).
