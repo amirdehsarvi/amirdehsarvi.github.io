@@ -59,30 +59,9 @@ Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performan
 Publications
 ======
 
-  ```html
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-
-  <ul>{% for post in site.publications %}
-    <li>
-      {{ post.year }} -
-      {% assign authors = post.authors | split: ", " %}
-      {% for author in authors %}
-        {% assign bold_author = author | strip %}
-        {% if bold_author == "Amir Dehsarvi" or bold_author == "Dehsarvi, A." %}
-          **{{ author | strip }}**
-        {% else %}
-          {{ author | strip }}
-        {% endif %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %} -
-      {{ post.title }}
-      {% if post.journal %}
-        , *{{ post.journal }}*
-      {% endif %}
-    </li>
-  {% endfor %}</ul>  
 
 Talks
 ======
