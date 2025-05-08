@@ -3,7 +3,7 @@ title: "Multimodal spatial gradients to explain regional susceptibility to fibri
 collection: publications
 permalink: /publication/2025AlzheimersDement
 excerpt: 'This study investigates multimodal spatial gradients to explain regional susceptibility to fibrillar tau pathology in Alzheimer&#39;s disease.'
-date: 2025-03-13
+date: 2025-05-08
 venue: 'Alzheimer&#39;s & Dementia, vol 21, issue 7, pp e70170.'
 paperurl: 'https://doi.org/10.1002/alz.70170'
 citation: 'Luan, Y., Zheng, L., Denecke, J., Dehsarvi, A., Roemer-Cassiano, S. N., Dewenter, A., Steward, A., Shcherbinin, S., Otero Svaldi, D., Kotari, V., Higgins, I. A., Pontecorvo, M. J., Valentim, C., Schnabel, J. A., Casale, F. P., Dyrba, M., Teipel, S., Franzmeier, N., & Ewers, M. (2025). Multimodal spatial gradients to explain regional susceptibility to fibrillar tau in Alzheimer&#39;s disease. Alzheimer&#39;s & Dementia, 21(7), e70170. https://doi.org/10.1002/alz.70170'
