@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Engineer & Data Scientist with expertise in AI-driven medical technologies, neuroimaging, and high-performance computing. I have extensive experience developing and optimizing ML/DL models for healthcare applications, with a strong background in Python, MATLAB, R, and deep learning frameworks. My work demonstrates a proven ability to build scalable data pipelines, automate complex workflows, and integrate AI solutions into real-world applications. I am passionate about leveraging data science and ML to drive innovation in health tech and beyond.
+I am a Machine Learning Engineer & Data Scientist with extensive expertise in advanced neuroimaging data analysis, AI-driven medical technologies, and high-performance computing. I lead initiatives in developing and optimizing sophisticated ML/DL models for complex healthcare applications, particularly leveraging cutting-edge neuroimaging techniques. My proficiency spans Python, MATLAB, R, and leading deep learning frameworks. I have a proven track record in building scalable data pipelines, automating intricate neuroimaging workflows, and seamlessly integrating AI solutions into real-world clinical and research applications. My passion lies in driving transformative innovation in health tech, especially within the neurosciences, through data science and machine learning.
 
 ## Professional Experience
 
