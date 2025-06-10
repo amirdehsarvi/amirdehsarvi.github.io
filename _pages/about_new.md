@@ -33,7 +33,7 @@ I am a Machine Learning Engineer & Data Scientist with extensive expertise in ad
 
 ## Research Focus
 
-My research focuses on the application of machine learning/deep learning for analyzing biomedical data, including brain imaging, movement, and speech, for disease diagnosis and target identification. I lead the development of novel end-to-end analyses, particularly in diseases such as Parkinson’s disease, Alzheimer’s disease, autism, and depression. At the LMU Hospital, I am working with [Dr. Franzmeier](https://www.isd-research.de/our-labs/franzmeier-lab/c2a419aceaa4aab7) on developing cutting-edge pre-processing and processing pipelines for multimodal brain imaging analysis (MRI, fMRI, PET, DTI, EEG, etc.).
+My research focuses on the application of machine learning/deep learning for analyzing biomedical data, including brain imaging, movement, and speech, for disease diagnosis and target identification. I lead the development of novel end-to-end analyses, particularly in diseases such as Alzheimer’s disease, Parkinson’s disease, autism, and depression. At the LMU Hospital, I am working with [Dr. Franzmeier](https://www.isd-research.de/our-labs/franzmeier-lab/c2a419aceaa4aab7) on developing cutting-edge pre-processing and processing pipelines for multimodal brain imaging analysis (MRI, fMRI, PET, DTI, EEG, etc.).
 
 ## Collaborations
 
@@ -49,4 +49,4 @@ I have collaborated with renowned researchers such as [Prof. Smith](https://www.
 
 ## Technical Skills
 
-Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, Docker, Linux, AI-based medical devices.
+Neuroimaging data analysis, Machine Learning, Deep Learning, Git, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, Docker, Linux, AI-based medical devices.
