@@ -3,7 +3,7 @@ title: "Brain Networks Route Neurodegeneration Patterns in Patients with Progres
 collection: publications
 permalink: /publication/2025MovDisord
 excerpt: 'This study investigates how brain networks influence the patterns of neurodegeneration in patients with Progressive Supranuclear Palsy (PSP).'
-date: 2025-01-01
+date: 2025-06-09
 venue: 'Mov Disord.'
 paperurl: 'https://doi.org/10.1002/mds.30257'
 citation: 'Palleis, C., Quattrone, A., Dehsarvi, A., Roemer-Cassiano, S.N., Bernhardt, A.M., Huppertz, H.-J., Malpetti, M., Boxer, A.L., Gnörich, J., Frontzkowski, L., Levin, J., Brendel, M., Höglinger, G.U. and Franzmeier, N. (2025). Brain Networks Route Neurodegeneration Patterns in Patients with Progressive Supranuclear Palsy. Mov Disord. https://doi.org/10.1002/mds.30257'
