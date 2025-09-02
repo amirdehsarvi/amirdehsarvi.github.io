@@ -1,0 +1,19 @@
+---
+title: "ADprep – A Fully-Automated Software for Large-scale Multimodal MRI and PET Imaging Workflows"
+collection: talks
+type: "Talk"
+permalink: /talks/2025AAIC
+venue: "Alzheimer's Association International Conference (AAIC) 025"
+date: 2025-07-27
+location: "Toronto, Canada"
+---
+
+For my talk at the Alzheimer's Association International Conference (AAIC) 2025, I had the honor of chairing the session on "Imaging in neurodegenerative diseases." During this session, I presented our work on a groundbreaking neuroimaging toolbox.
+
+My talk was all about ADprep, a fully automated and containerized neuroimaging toolbox we developed to solve a major problem in Alzheimer’s disease research: the lack of standardized data. Processing large-scale multimodal MRI and PET data is a huge hurdle. It requires extensive expertise in multiple software packages and programming languages, and different labs use different methods, which leads to inconsistent results.
+
+I presented how ADprep simplifies this process, making it accessible to researchers without deep programming knowledge. We designed it to be user-friendly while maintaining state-of-the-art robustness. It can handle all the key data types—structural and functional MRI, along with multi-tracer PET (amyloid, tau, FDG, and TSPO)—and produces standardized outputs in a fraction of the time.
+
+To show how effective ADprep is, I shared some impressive results. We successfully tested it on thousands of scans from major datasets like ADNI and A4, achieving a processing failure rate of less than 4%. The best part? When we benchmarked our results against existing pipelines, we found that ADprep's outputs for amyloid-PET and tau-PET were nearly identical, with correlation coefficients of 0.99 and 0.98, respectively. This means our tool is not only reliable but also comparable to the gold standard.
+
+Ultimately, my presentation highlighted how ADprep can foster harmonization and data sharing across the AD neuroimaging community. It’s an essential step toward a future where our collective data can be used more effectively to drive discovery and innovation. I also announced its full integration into the cloud-based GRIP platform, making it even more accessible for large-scale data processing.
