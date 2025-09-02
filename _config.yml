@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "I am a researcher interested in the application of machine learning techniques for the analysis of medical data."
   location         : 
-  employer         : "LMU Hospital Munich"
+  employer         : "Boehringer Ingelheim"
   uri              : # URL
-  email            : "amir.dehsarvi@med.uni-muenchen.de" 
+  email            : "amir.dehsarvi@boehringer-ingelheim.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
