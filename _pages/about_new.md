@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Engineer & Data Scientist with extensive expertise in advanced neuroimaging data analysis, AI-driven medical technologies, and high-performance computing. I lead initiatives in developing and optimizing sophisticated ML/DL models for complex healthcare applications, particularly leveraging cutting-edge neuroimaging techniques. My proficiency spans Python, MATLAB, R, and leading deep learning frameworks. I have a proven track record in building scalable data pipelines, automating intricate neuroimaging workflows, and seamlessly integrating AI solutions into real-world clinical and research applications. My passion lies in driving transformative innovation in health tech, especially within the neurosciences, through data science and machine learning.
+I am a Machine Learning Engineer & Neuroimaging Data Scientist with extensive expertise in advanced neuroimaging data analysis, AI-driven medical technologies, and high-performance computing. I lead initiatives in developing and optimizing sophisticated ML/DL models for complex healthcare applications, particularly leveraging cutting-edge neuroimaging techniques. My proficiency spans Python, MATLAB, R, and leading deep learning frameworks. I have a proven track record in building scalable data pipelines, automating intricate neuroimaging workflows, and seamlessly integrating AI solutions into real-world clinical and research applications. My passion lies in driving transformative innovation in health tech, especially within the neurosciences, through data science and machine learning.
 
 ## Professional Experience
 
@@ -34,11 +34,11 @@ I am a Machine Learning Engineer & Data Scientist with extensive expertise in ad
 
 ## Research Focus
 
-My research focuses on the application of machine learning/deep learning for analyzing biomedical data, including brain imaging, movement, and speech, for disease diagnosis and target identification. I lead the development of novel end-to-end analyses, particularly in diseases such as Alzheimer’s disease, Parkinson’s disease, autism, and depression. At the LMU Hospital, I am working with [Dr. Franzmeier](https://www.isd-research.de/our-labs/franzmeier-lab/c2a419aceaa4aab7) on developing cutting-edge pre-processing and processing pipelines for multimodal brain imaging analysis (MRI, fMRI, PET, DTI, EEG, etc.).
+My expertise lies in applying machine learning and deep learning to analyze complex biomedical data, particularly through the lens of neuroimaging. I lead initiatives to develop novel end-to-end analytical pipelines by integrating data such as brain imaging, movement, and speech, with a specific focus on diseases like Alzheimer's, Parkinson's, autism, and depression.
 
 ## Collaborations
 
-I have collaborated with renowned researchers such as [Dr. Franzmeier](https://www.isd-research.de/franzmeier-lab) [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Waiter</a>, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Prof. Basu</a>, and <a href="https://reillylab.net/richard-reilly">Prof. Reilly</a> on multiple projects focusing on objective assessment of depression from rsfMRI brain scans, investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and further, contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
+I have had the pleasure and honour to work with renowned researchers such as [Dr. Franzmeier](https://www.isd-research.de/franzmeier-lab), [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Waiter</a>, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Prof. Basu</a>, and <a href="https://reillylab.net/richard-reilly">Prof. Reilly</a> on multiple projects focusing on developing advanced automated neuroimaging preprocessing pipelines, objective assessment of depression from rsfMRI brain scans, investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and further, contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
 
 ## Education
 
