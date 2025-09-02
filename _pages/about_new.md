@@ -38,7 +38,7 @@ My research focuses on the application of machine learning/deep learning for ana
 
 ## Collaborations
 
-I have collaborated with renowned researchers such as [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Waiter</a>, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Prof. Basu</a>, and <a href="https://reillylab.net/richard-reilly">Prof. Reilly</a> on multiple projects focusing on objective assessment of depression from rsfMRI brain scans, investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and further, contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
+I have collaborated with renowned researchers such as [Dr. Franzmeier](https://www.isd-research.de/franzmeier-lab) [Prof. Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Waiter</a>, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Prof. Basu</a>, and <a href="https://reillylab.net/richard-reilly">Prof. Reilly</a> on multiple projects focusing on objective assessment of depression from rsfMRI brain scans, investigating underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and further, contributed to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
 
 ## Education
 
