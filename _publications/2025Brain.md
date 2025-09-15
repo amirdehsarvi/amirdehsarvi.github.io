@@ -1,7 +1,7 @@
 ---
 title: "Cortical tau deposition promotes atrophy in connected white matter regions in Alzheimer's disease"
 collection: publications
-permalink: /publication/2025brain
+permalink: /publication/2025Brain
 excerpt: 'This study demonstrates that cortical tau accumulation promotes atrophy in connected white matter regions in Alzheimer&#39;s disease, highlighting the role of tau-induced axonal degeneration.'
 date: 2025-09-12
 venue: 'Brain'
