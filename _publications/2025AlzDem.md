@@ -1,5 +1,5 @@
 ---
-title: "A systematic comparison of ATN biomarkers for monitoring longitudinal cognitive changes in Alzheimer's disease"
+title: "A systematic comparison of ATN biomarkers for monitoring longitudinal cognitive changes in Alzheimer&#39;s disease"
 collection: publications
 permalink: /publication/2025AlzDem
 excerpt: 'This systematic study compares longitudinal changes in A/T/N biomarkers (amyloid-PET, tau-PET, plasma p-tau217, and MRI) for tracking cognitive changes in Alzheimer&#39;s disease, finding plasma p-tau217 to be a robust, cost-effective alternative to tau-PET.'
