@@ -1,6 +1,3 @@
-
----
-
 <div class="about-hero" style="text-align:center; margin-top:2rem;">
 	<img src="/images/2022.07.22 - Dehsarvi Amir - ISD 9278.JPG" alt="Dr. Amir Dehsarvi" style="width:160px; border-radius:50%; box-shadow:0 2px 8px rgba(0,0,0,0.08); margin-bottom:1.5rem;">
 	<h1 style="margin-bottom:0.5rem;">Dr. Amir Dehsarvi</h1>
