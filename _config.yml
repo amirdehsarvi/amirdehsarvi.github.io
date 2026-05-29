@@ -136,20 +136,26 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/2022.07.22 - Dehsarvi Amir - ISD 9278.JPG" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Dr. Amir Dehsarvi"
+  links:
+    - "https://scholar.google.com/citations?user=RWGt9XQAAAAJ&hl"
+    - "https://orcid.org/0000-0001-7116-9741"
+    - "https://www.researchgate.net/profile/Amir-Dehsarvi"
+    - "https://www.ncbi.nlm.nih.gov/pubmed/?term=Amir+Dehsarvi"
+    - "https://github.com/amirdehsarvi"
+    - "https://www.linkedin.com/in/amirdehsarvi/"
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "false"
   google:
-    tracking_id          :
+    tracking_id          : "UA-XXXXXXXXX-X" # TODO: Replace with your Google Analytics 4 Measurement ID
 
 
 # Reading Files
