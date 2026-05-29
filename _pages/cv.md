@@ -15,10 +15,10 @@ redirect_from:
 Current Positions
 ======
 * 2025 to date: Principal Scientist Neuroimaging, Boehringer Ingelheim.
-* 2018 to date: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
 
 Previous Research Positions
 ======
+* 2018-2025: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
 * 2022-2025: Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), The Ludwig-Maximilians-University Munich Medical Center (Germany)
 I developed and deployed ADPREP, an automated neuroimaging pipeline that standardizes data from multiple modalities (MRI, fMRI, PET, DTI). Its effectiveness is demonstrated by its use in over 25 peer-reviewed publications since 2023, and it is now set for integration into the [GRIP platform](https://www.grip-research.org/platform), a Gates Ventures initiative. I also created a deep learning model to infer full Alzheimer's disease A/T/N classification from single tau-PET scans, achieving high predictive accuracy for amyloid-PET (r=0.8) and MRI grey matter density (r=0.76). In addition to my research, I managed the High-Performance Computing (HPC) resources for the lab and provided data analysis support to my colleagues while also serving as an IT assistant for the LMU Hospital.
 * 2021-2022: Research Associate, Department of Electronic Engineering at the University of York (UK)

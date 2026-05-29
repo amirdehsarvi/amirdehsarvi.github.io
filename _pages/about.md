@@ -1,12 +1,71 @@
----
+
 permalink: /
-title:
-excerpt:
+title: "Dr. Amir Dehsarvi"
+excerpt: "Principal Scientist in Neuroimaging, AI & Data Science Innovator"
+header:
+    image: "2022.07.22 - Dehsarvi Amir - ISD 9278.JPG"
+    overlay_color: "#222"
+    overlay_filter: 0.3
+    cta_label: "View My Work"
+    cta_url: "/portfolio.html"
 author_profile: true
 redirect_from:
-  - /about/
-  - /about.html
+    - /about/
+    - /about.html
 ---
+{% include page__hero.html %}
+
+## Featured Projects
+
+<div class="grid__wrapper">
+{% assign featured = site.portfolio | slice: 0, 3 %}
+{% for post in featured %}
+    <div class="grid__item">
+        <a href="{{ post.url }}">
+            <div class="grid__item-image">
+                <img src="/images/500x300.png" alt="{{ post.title }}">
+            </div>
+            <div class="grid__item-title">{{ post.title }}</div>
+            <div class="grid__item-excerpt">{{ post.excerpt | markdownify }}</div>
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<style>
+.grid__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.grid__item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    flex: 1 1 300px;
+    max-width: 320px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+.grid__item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.grid__item-image img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.grid__item-title {
+    font-weight: bold;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+.grid__item-excerpt {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+</style>
 
 I am a Machine Learning Engineer & Neuroimaging Data Scientist with extensive expertise in advanced neuroimaging data analysis, AI-driven medical technologies, and high-performance computing. I lead initiatives in developing and optimizing sophisticated ML/DL models for complex healthcare applications, particularly leveraging cutting-edge neuroimaging techniques. My proficiency spans Python, MATLAB, R, and leading deep learning frameworks. I have a proven track record in building scalable data pipelines, automating intricate neuroimaging workflows, and seamlessly integrating AI solutions into real-world clinical and research applications. My passion lies in driving transformative innovation in health tech, especially within the neurosciences, through data science and machine learning.
 
