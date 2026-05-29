@@ -1,22 +1,27 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "The Application of Evolutionary Algorithms for the Analysis of Biomedical Data<br />Imperial College London; London, UK",
+    51.5074456,
+    -0.1277653
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "ADPREP \u2013 A Fully-Automated Software for Large-scale Multimodal MRI and PET Imaging Workflows<br />Alzheimer's Association International Conference (AAIC) 2025; Toronto, Canada",
+    43.6534817,
+    -79.3839347
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Towards Automated Monitoring of Parkinson&#39;s Disease Following Drug Treatment<br />Pattern Recognition and Artificial Intelligence. ICPRAI 2022; Universit\u00e9 Paris Cit\u00e9, Paris, France",
+    48.8514684,
+    2.341089
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "The Application of Evolutionary Algorithms for the Analysis of Brain Imaging Data<br />University of York - Department of Electronic Engineering; York, United Kingdom",
+    53.9656579,
+    -1.0743052
+  ],
+  [
+    "The Application of Evolutionary Algorithms for the Analysis of Biomedical Data<br />DEMON Network; Aberdeen, UK",
+    57.1482429,
+    -2.0928095
   ]
 ];
