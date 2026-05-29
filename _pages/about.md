@@ -15,24 +15,85 @@ redirect_from:
 ---
 {% include page__hero.html %}
 
-## Featured Projects
 
-<div class="grid__wrapper">
-{% assign featured = site.portfolio | slice: 0, 3 %}
-{% for post in featured %}
-    <div class="grid__item">
-        <a href="{{ post.url }}">
-            <div class="grid__item-image">
-                <img src="/images/500x300.png" alt="{{ post.title }}">
+<div class="section section--projects">
+    <h2 class="section__title">Featured Projects</h2>
+    <div class="grid__wrapper">
+        {% assign featured = site.portfolio | slice: 0, 3 %}
+        {% for post in featured %}
+            <div class="grid__item">
+                <a href="{{ post.url }}">
+                    <div class="grid__item-image">
+                        <img src="/images/500x300.png" alt="{{ post.title }}">
+                    </div>
+                    <div class="grid__item-title">{{ post.title }}</div>
+                    <div class="grid__item-excerpt">{{ post.excerpt | markdownify }}</div>
+                </a>
             </div>
-            <div class="grid__item-title">{{ post.title }}</div>
-            <div class="grid__item-excerpt">{{ post.excerpt | markdownify }}</div>
-        </a>
+        {% endfor %}
     </div>
-{% endfor %}
+</div>
+
+<div class="section-divider"></div>
+
+<div class="section section--experience">
+    <h2 class="section__title">Professional Experience</h2>
+    <!-- Experience content will be rendered here -->
+</div>
+
+<div class="section-divider"></div>
+
+<div class="section section--research">
+    <h2 class="section__title">Research Focus</h2>
+    <!-- Research content will be rendered here -->
+</div>
+
+<div class="section-divider"></div>
+
+<div class="section section--collaborations">
+    <h2 class="section__title">Collaborations</h2>
+    <!-- Collaborations content will be rendered here -->
+</div>
+
+<div class="section-divider"></div>
+
+<div class="section section--education">
+    <h2 class="section__title">Education</h2>
+    <!-- Education content will be rendered here -->
+</div>
+
+<div class="section-divider"></div>
+
+<div class="section section--skills">
+    <h2 class="section__title">Technical Skills</h2>
+    <!-- Skills content will be rendered here -->
 </div>
 
 <style>
+.section {
+    background: #f9f9fb;
+    border-radius: 12px;
+    padding: 2rem 2rem 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.section__title {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #2a2a2a;
+    letter-spacing: 0.01em;
+    border-left: 4px solid #4f8cff;
+    padding-left: 0.75rem;
+}
+.section-divider {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #4f8cff 0%, #fff 100%);
+    margin: 2.5rem 0 2rem 0;
+    border-radius: 2px;
+    opacity: 0.25;
+}
 .grid__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +125,26 @@ redirect_from:
     color: #555;
     font-size: 0.95rem;
     margin-bottom: 1rem;
+}
+/* Hero CTA button animation */
+.page__hero .btn,
+.page__hero .cta {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.10);
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.page__hero .btn:hover,
+.page__hero .cta:hover {
+    background: #2563eb;
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 6px 24px rgba(79,140,255,0.18);
 }
 </style>
 
