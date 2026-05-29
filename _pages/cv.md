@@ -98,4 +98,3 @@ Service and leadership
 * 2016: Conference Chair of The 31st Annual Psychology Postgraduate Affairs Group Conference held in York (UK).
 * 2016: Conference committee member of York Doctoral Symposium
 * 2014-2016: Postgraduate Representative at The Department of Electronic Engineering, University of York (UK).
-
