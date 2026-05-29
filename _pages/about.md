@@ -38,35 +38,97 @@ redirect_from:
 
 <div class="section section--experience">
     <h2 class="section__title">Professional Experience</h2>
-    <!-- Experience content will be rendered here -->
+    <div>
+I am a Machine Learning Engineer & Neuroimaging Data Scientist with extensive expertise in advanced neuroimaging data analysis, AI-driven medical technologies, and high-performance computing. I lead initiatives in developing and optimizing sophisticated ML/DL models for complex healthcare applications, particularly leveraging cutting-edge neuroimaging techniques. My proficiency spans Python, MATLAB, R, and leading deep learning frameworks. I have a proven track record in building scalable data pipelines, automating intricate neuroimaging workflows, and seamlessly integrating AI solutions into real-world clinical and research applications. My passion lies in driving transformative innovation in health tech, especially within the neurosciences, through data science and machine learning.
+
+<ul>
+<li><b>2025 to date:</b> Principal Scientist Neuroimagine, Boehringer Ingelheim (Germany).</li>
+<li><b>2018-2025:</b> Chief Technology Officer, <a href="https://www.clearskymd.com">ClearSky Medical Diagnostics Ltd.</a>, York (UK).
+    <ul>
+        <li>Contributed to the development of machine learning (ML)-based medical devices for diagnosing and monitoring neurodegenerative conditions, including PD-Monitor, LID-Monitor, and MCI-Monitor.</li>
+        <li>Optimized ML for movement disorder analysis, enhancing diagnostic precision.</li>
+        <li>Collaborated with multidisciplinary teams, including clinicians and engineers, to integrate AI-driven solutions into clinical applications.</li>
+    </ul>
+</li>
+<li><b>2022-2025:</b> Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München (LMU), University of Munich (Germany).
+    <ul>
+        <li>Developed ADPREP, an automated neuroimaging preprocessing pipeline (using Python, MATLAB, R, Shell, etc.) for multiple modalities (MRI, fMRI, PET, DTI), optimizing data quality and analysis. This pipeline's effectiveness is demonstrated by its use in over 25 peer-reviewed publications (2023-present) in neurodegenerative disease research and it is going to be integrated into the <a href="https://www.grip-research.org/platform">GRIP platform</a>, a Gates Ventures initiative.</li>
+        <li>Developed, validated, and deployed a deep learning model to infer full Alzheimer's disease A/T/N classification from single tau-PET scans, achieving high predictive accuracy for amyloid-PET (r=0.8) and MRI grey matter density (r=0.76).</li>
+        <li>In addition to my research, I managed the High-Performance Computing (HPC) resources and provide support to research labs for their data analysis needs on the HPC and I was also an IT assistant for the LMU Hospital.</li>
+    </ul>
+</li>
+<li><b>2021-2022:</b> Postdoctoral Research Associate, University of York (UK).
+    <ul>
+        <li>Applied white-box machine learning to resting-state fMRI data to differentiate depression from healthy controls.</li>
+    </ul>
+</li>
+<li><b>2020-2021:</b> Research Fellow, University of Aberdeen (UK).
+    <ul>
+        <li>Used neuroimaging to define a fatigue-related brain network in rheumatoid arthritis, exploring how therapies impact it for potential DBS or similar targeting.</li>
+    </ul>
+</li>
+<li><b>2021:</b> Machine Learning and Image Processing Engineer, <a href="https://smartr.ai">smartR.ai</a>, Edinburgh (UK).
+    <ul>
+        <li>Created deep learning pipelines to normalize and match color profiles between FIBI and H&E histological images.</li>
+    </ul>
+</li>
+<li><b>2019:</b> Post-Doctoral Researcher in Neuroimaging, The University of Dublin (Ireland).
+    <ul>
+        <li>Linked speech patterns to brain volume changes in MCI/AD, exploring speech as an early marker of cognitive decline.</li>
+    </ul>
+</li>
+<li><b>2016-2017:</b> Professional Engineer, My Therapy Tools Ltd.
+    <ul>
+        <li>Provided professional engineering support to a Horizon 2020 telerehabilitation platform development for brain injury patients.</li>
+    </ul>
+</li>
+</ul>
+    </div>
 </div>
 
 <div class="section-divider"></div>
 
 <div class="section section--research">
     <h2 class="section__title">Research Focus</h2>
-    <!-- Research content will be rendered here -->
+    <div>
+My expertise lies in applying machine learning and deep learning to analyze complex biomedical data, particularly through the lens of neuroimaging. I lead initiatives to develop novel end-to-end analytical pipelines by integrating data such as brain imaging, movement, and speech, with a specific focus on diseases like Alzheimer's, Parkinson's, autism, and depression.
+    </div>
 </div>
 
 <div class="section-divider"></div>
 
 <div class="section section--collaborations">
     <h2 class="section__title">Collaborations</h2>
-    <!-- Collaborations content will be rendered here -->
+    <div>
+I have had the pleasure and honour to work with renowned researchers such as [Dr.] Franzmeier](https://www.isd-research.de/franzmeier-lab), [Professor Smith](https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/), <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr.</a> Waiter, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Professor Basu</a>, and <a href="https://reillylab.net/richard-reilly">Professor Reilly</a> on multiple projects. These collaborations have focused on developing advanced automated neuroimaging preprocessing pipelines, objective assessment of depression from rsfMRI brain scans, investigating the underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and contributing to projects analyzing speech and brain imaging features for the classification of Alzheimer’s disease patients and mild cognitive impairment.
+    </div>
 </div>
 
 <div class="section-divider"></div>
 
 <div class="section section--education">
     <h2 class="section__title">Education</h2>
-    <!-- Education content will be rendered here -->
+    <div>
+<ul>
+<li><b>2014-2018:</b> PhD Electronic Engineering, University of York (UK).
+    <ul>
+        <li>Supervision: <a href="https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/">Professor Smith</a>.</li>
+        <li>Thesis: Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson's Disease.</li>
+    </ul>
+</li>
+<li><b>2013:</b> MSc Digital Signal Processing, University of York (UK).</li>
+<li><b>2010:</b> BSc Applied Science Electronics, University of Science and Arts of Yazd (Iran).</li>
+</ul>
+    </div>
 </div>
 
 <div class="section-divider"></div>
 
 <div class="section section--skills">
     <h2 class="section__title">Technical Skills</h2>
-    <!-- Skills content will be rendered here -->
+    <div>
+Neuroimaging data analysis, Machine Learning, Deep Learning, Git, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, Docker, Linux, AI-based medical devices.
+    </div>
 </div>
 
 <style>
