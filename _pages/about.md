@@ -1,5 +1,5 @@
 
-permalink: /
+permalink: /index.html
 title: "Dr. Amir Dehsarvi"
 excerpt: "Principal Scientist in Neuroimaging, AI & Data Science Innovator"
 header:
