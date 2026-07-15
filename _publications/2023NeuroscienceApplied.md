@@ -1,7 +1,7 @@
 ---
 title: "Developing a Biomarker of Depression Using White-Box Machine Learning of Resting-State Functional Magnetic Resonance Imaging"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2023NeuroscienceApplied
 excerpt: 'This paper discusses the development of a biomarker of depression using white-box machine learning of resting-state functional magnetic resonance imaging.'
 date: 2023-10-01

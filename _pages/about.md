@@ -10,7 +10,7 @@ redirect_from:
 <div class="section section--research">
     <h2 class="section__title">Research Focus</h2>
     <div>
-I apply machine learning and deep learning to complex biomedical data, with neuroimaging as the central lens. My work centres on building end-to-end analytical pipelines that integrate brain imaging with other modalities — including movement and speech — to accelerate diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism, and depression. My proficiency spans Python, MATLAB, R, and the major deep learning frameworks, alongside scalable data engineering and high-performance computing.
+I apply machine learning and deep learning to complex biomedical data, with multimodal neuroimaging as the central lens. My work centres on building end-to-end analytical pipelines that integrate brain imaging with other modalities — including EEG, movement, and speech — to accelerate diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism, and depression. My proficiency spans Python, MATLAB, R, and Shell, together with the major deep learning frameworks, alongside scalable data engineering and high-performance computing.
     </div>
 </div>
 
@@ -61,7 +61,6 @@ I apply machine learning and deep learning to complex biomedical data, with neur
     </ul>
 </li>
 </ul>
-<p><i>Note: several roles ran concurrently — the ClearSky CTO role was held alongside academic posts.</i></p>
     </div>
 </div>
 
@@ -89,6 +88,7 @@ I apply machine learning and deep learning to complex biomedical data, with neur
     <h2 class="section__title">Collaborations</h2>
     <div>
 I have had the pleasure and honour of working with researchers such as <a href="https://www.isd-research.de/franzmeier-lab">Dr. Franzmeier</a>, <a href="https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/">Professor Smith</a>, <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Waiter</a>, <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Professor Basu</a>, and <a href="https://reillylab.net/richard-reilly">Professor Reilly</a> on multiple projects. These collaborations have focused on developing advanced automated neuroimaging preprocessing pipelines, objective assessment of depression from rsfMRI brain scans, investigating the underlying mechanisms of rheumatoid arthritis-related fatigue in the brain, and analyzing speech and brain imaging features for the classification of Alzheimer's disease and mild cognitive impairment.
+<p style="margin-top: 1em;">By its nature, this work is highly interdisciplinary, and I have been fortunate to collaborate closely with clinicians and clinical scientists as well as researchers across engineering, computer science, and the basic sciences — translating between these perspectives is one of the parts of the work I enjoy most.</p>
     </div>
 </div>
 
