@@ -1,6 +1,7 @@
 ---
 title: "Neuroinflammation Parallels 18F-PI-2620 Positron Emission Tomography Patterns in Primary 4-Repeat Tauopathies"
 collection: publications
+category: manuscripts
 permalink: /publication/2024MovementDisorders
 excerpt: 'This study explores the relationship between neuroinflammation and tau pathology in primary 4-repeat tauopathies using PET imaging.'
 date: 2024-07-18

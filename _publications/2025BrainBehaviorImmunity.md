@@ -1,6 +1,7 @@
 ---
 title: "Higher blood–brain barrier leakage in schizophrenia-spectrum disorders: A comparative dynamic contrast-enhanced magnetic resonance imaging study with healthy controls"
 collection: publications
+category: manuscripts
 permalink: /publication/2025BrainBehaviorImmunity
 excerpt: 'This study investigates blood–brain barrier (BBB) leakage in individuals with schizophrenia-spectrum disorders (SZS) compared to healthy controls using dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI).'
 date: 2025-04-17

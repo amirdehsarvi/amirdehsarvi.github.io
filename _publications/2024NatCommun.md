@@ -1,6 +1,7 @@
 ---
 title: "Elevated CSF GAP-43 is associated with accelerated tau accumulation and spread in Alzheimer&#39;s disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2024NatCommun
 excerpt: 'This paper investigates the association between elevated cerebrospinal fluid (CSF) GAP-43 levels and the accelerated accumulation and spread of tau pathology in Alzheimer&#39;s disease.'
 date: 2024-01-03

@@ -39,7 +39,7 @@ Education
 _Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson’s Disease._ Topics examined included the analysis of resting state fMRI data using Dynamic Causal Modeling and timeseries analysis. The extracted features from the analyses were then subjected to the classifiers that were developed based on Cartesian Genetic Programming, Artificial Neural Networks, and Support Vector Machines.
 
 * 2017: Translate: Me – Innovation Bootcamp, Translate: Medical Technologies (UK).
-* 2015: Higher Education Academy Associate Fellow Status, following completion of York Learning and Teaching Award, University of York (UK): 1/3 of a PG Certificate in Higher Education.
+* 2015: Higher Education Academy Associate Fellow Status, following completion of York Learning and Teaching Award, University of York (UK): equivalent to one third of a Postgraduate Certificate in Higher Education.
 * 2013: MSc Digital Signal Processing, University of York (UK).
 * 2010: BSc Applied Science Electronics, University of Science and Arts of Yazd (Iran).
 
@@ -83,7 +83,7 @@ Service and leadership
 * 2024: Reviewer for the journal of Health Science Reports
 * 2024: Reviewer for the journal of Neural Computing and Applications
 * 2024: Conference committee member of <a href="http://www.evostar.org/2024/evoapps/">EvoApplications&#42;</a>, 27th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2024, held in Wales (United Kingdom).
-* 2023: Conference committee member of <a href="http://www.evostar.org/2023/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Brno (Czech Reublic).
+* 2023: Conference committee member of <a href="http://www.evostar.org/2023/evoapps/">EvoApplications&#42;</a>, 26th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2023, held in Brno (Czech Republic).
 * 2022: Conference committee member of <a href="https://iconip2022.apnns.org/">ICONIP 2022&#42;</a>, 29th International Conference on Neural Information Processing, in New Delhi (India).
 * 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 25th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Madrid (Spain).
 * 2021: Reviewer for the journal of Frontiers in Human Neuroscience.

@@ -1,6 +1,7 @@
 ---
 title: "Amyloid-β and tau deposition in traumatic brain injury: a study of Vietnam War veterans"
 collection: publications
+category: manuscripts
 permalink: /publication/2025BrainCommunications
 excerpt: 'This study examines the spatial patterns of amyloid-β and tau deposition in Vietnam War veterans with a history of traumatic brain injury (TBI), revealing distinct deposition patterns compared to typical Alzheimer&#39;s disease cases.'
 date: 2025-01-10

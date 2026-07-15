@@ -1,6 +1,7 @@
 ---
 title: "Characterizing the Neurobiological Mechanisms of Action of Exercise and Cognitive-Behavioral Interventions for Rheumatoid Arthritis Fatigue: A Magnetic Resonance Imaging Brain Study"
 collection: publications
+category: manuscripts
 permalink: /publication/2024ArthritisRheumatol
 excerpt: 'This paper investigates the neurobiological mechanisms underlying the effects of exercise and cognitive-behavioral interventions on fatigue in patients with rheumatoid arthritis, using magnetic resonance imaging (MRI).'
 date: 2024-02-01

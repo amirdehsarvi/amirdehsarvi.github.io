@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence for Biomarker Discovery in Alzheimer&#39;s Disease and Dementia"
 collection: publications
+category: manuscripts
 permalink: /publication/2023AlzheimersDement2
 excerpt: 'This paper explores the use of artificial intelligence in discovering biomarkers for Alzheimer’s disease and other forms of dementia.'
 date: 2023-08-31

@@ -1,6 +1,7 @@
 ---
 title: "ApoE4 and Connectivity-Mediated Spreading of Tau Pathology at Lower Amyloid Levels"
 collection: publications
+category: manuscripts
 permalink: /publication/2023JAMANeurol
 excerpt: 'This paper explores the role of ApoE4 in the connectivity-mediated spreading of tau pathology at lower amyloid levels in the brain.'
 date: 2023-12-01

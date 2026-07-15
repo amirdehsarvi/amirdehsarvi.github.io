@@ -1,6 +1,7 @@
 ---
 title: "Brain Networks Route Neurodegeneration Patterns in Patients with Progressive Supranuclear Palsy"
 collection: publications
+category: manuscripts
 permalink: /publication/2025MovementDisorders
 excerpt: 'This study investigates how brain networks influence the patterns of neurodegeneration in patients with Progressive Supranuclear Palsy (PSP).'
 date: 2025-06-09

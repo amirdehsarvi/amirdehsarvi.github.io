@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence for Dementia Research Methods Optimization"
 collection: publications
+category: manuscripts
 permalink: /publication/2023AlzheimersDement
 excerpt: 'This paper discusses the application of artificial intelligence in optimizing research methods for dementia studies.'
 date: 2023-08-28

@@ -1,6 +1,7 @@
 ---
 title: "Amyloid-associated hyperconnectivity drives tau spread across connected brain regions in Alzheimer&#39;s disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2025SciTranslMed
 excerpt: 'This study investigates how amyloid-β–induced neuronal hyperconnectivity facilitates the spread of tau pathology across connected brain regions in Alzheimer&#39;s disease.'
 date: 2025-01-22

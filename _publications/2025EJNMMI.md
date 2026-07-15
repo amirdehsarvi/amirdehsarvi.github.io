@@ -1,6 +1,7 @@
 ---
 title: "Developing a novel reference region for [18F]PI-2620-PET imaging to facilitate the assessment of 4-repeat tauopathies"
 collection: publications
+category: manuscripts
 permalink: /publication/2025EJNMMI
 excerpt: 'This study develops and validates a novel data-driven temporo-orbital white matter reference region for [18F]PI-2620-PET imaging, optimizing the assessment of 4-repeat tauopathies, particularly in Progressive Supranuclear Palsy (PSP).'
 date: 2025-06-10

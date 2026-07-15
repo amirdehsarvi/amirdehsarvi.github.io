@@ -1,6 +1,7 @@
 ---
 title: "Subcortical tau is linked to hypoperfusion in connected cortical regions in 4-repeat tauopathies"
 collection: publications
+category: manuscripts
 permalink: /publication/2024Brain
 excerpt: 'This study investigates the link between subcortical tau and hypoperfusion in connected cortical regions in 4-repeat tauopathies.'
 date: 2024-06-06

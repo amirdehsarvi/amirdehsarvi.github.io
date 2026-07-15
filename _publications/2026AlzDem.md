@@ -1,6 +1,7 @@
 ---
 title: "Defining patient-centered amyloid PET thresholds for the onset of tauopathy in Alzheimer's disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2026AlzDem
 excerpt: 'This study establishes patient-centered amyloid PET thresholds for the onset of tauopathy, demonstrating that age and sex significantly influence the amyloid-to-tauopathy transition in Alzheimer’s disease.'
 date: 2026-01-04

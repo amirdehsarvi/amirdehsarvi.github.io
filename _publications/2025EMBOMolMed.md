@@ -1,6 +1,7 @@
 ---
 title: "Female sex is linked to a stronger association between sTREM2 and CSF p-tau in Alzheimer&#39;s disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2025EMBOMolMed
 excerpt: 'This study examines how female sex influences the relationship between soluble TREM2 (sTREM2) and cerebrospinal fluid phosphorylated tau (CSF p-tau) in Alzheimer&#39;s disease, suggesting that women may experience a stronger association between sTREM2-related microglial activation and tau pathology.'
 date: 2025-02-01

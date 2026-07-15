@@ -1,6 +1,7 @@
 ---
 title: "Multimodal spatial gradients to explain regional susceptibility to fibrillar tau in Alzheimer&#39;s disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2025AlzheimersDement
 excerpt: 'This study investigates multimodal spatial gradients to explain regional susceptibility to fibrillar tau pathology in Alzheimer&#39;s disease.'
 date: 2025-05-08

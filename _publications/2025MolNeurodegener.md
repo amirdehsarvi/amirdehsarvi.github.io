@@ -1,6 +1,7 @@
 ---
 title: "Alpha-synuclein co-pathology is associated with accelerated amyloid-driven tau accumulation in Alzheimer&#39;s disease"
 collection: publications
+category: manuscripts
 permalink: /publication/2025MolNeurodegener
 excerpt: 'This study investigates how alpha-synuclein co-pathology influences amyloid-β–induced tau aggregation, revealing that αSyn co-pathology accelerates tau accumulation and cognitive decline in Alzheimer&#39;s disease.'
 date: 2025-03-18

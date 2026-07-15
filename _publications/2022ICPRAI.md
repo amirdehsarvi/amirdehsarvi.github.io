@@ -1,6 +1,7 @@
 ---
 title: "Towards Automated Monitoring of Parkinson&#39;s Disease Following Drug Treatment"
 collection: publications
+category: conferences
 permalink: /publication/2022ICPRAI
 excerpt: 'This paper reports an automated approach to the clinical monitoring of Parkinson&#39;s disease (PD) by applying Evolutionary Algorithms (EAs) to resting-state functional magnetic imaging (rs-fMRI) data.'
 date: 2022-05-29
