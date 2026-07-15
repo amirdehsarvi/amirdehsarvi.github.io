@@ -25,7 +25,7 @@ I developed and deployed ADPREP, an automated neuroimaging pipeline that standar
 Using a proven white-box machine learning approach developed previously, in this project, we used resting brain scans from a large existing dataset (the UK Biobank) to generate new algorithms that can identify participants with depression from healthy volunteers.
 * 2020-2024: EMS Technical and Data Coordinator for <a href="https://www.ucl.ac.uk/comprehensive-clinical-trials-unit/research-projects/2020/nov/exenatide-parkinsons-disease">Exenatide-PD3</a> research study, a randomised, double blind, parallel group, placebo controlled, Phase III trial of Exenatide once weekly over 2 years as a potential disease modifying treatment for Parkinson’s disease.
 * 2020-2024: EMS Technical and Data Coordinator for two different research studies in Ruijin (China).
-* 2020-2024: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/core/trials-in-setup/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
+* 2020-2024: EMS Technical and Data Coordinator for <a href="https://cctu.org.uk/portfolio/neuroscience/trials-closed/aza-pd">AZA-PD</a> research study, a randomised, double blind, placebo controlled, Phase II trial on Azathioprine immunosuppression and disease modification in Parkinson’s disease.
 * 2020-2021: Research Fellow, Aberdeen Biomedical Imaging Centre within the Institute of Medical Sciences, at the School of Medicine, Medical Sciences and Nutrition at the University of Aberdeen (UK)
 Supervised by <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. Gordon Waiter</a>, in collaboration with <a href="https://www.gla.ac.uk/researchinstitutes/iii/staff/neilbasu/">Professor Neil Basu</a>. In this research project, I worked with a multidisciplinary team of clinicians and scientists on unravelling the mechanisms of chronic fatigue, a salient issue across the chronic disease spectrum in the multicentre large project of The <a href="https://clinicaltrials.gov/ct2/show/NCT03248518">Lessening the Impact of Fatigue Trial (LIFT)</a>. Specifically, I focused on the analysis and understanding of a multimodal MRI/fMRI brain study, using machine learning techniques (including and not limited to Evolutionary Algorithms), in order to identify potential central neurobiological correlates of rheumatoid arthritis related fatigue and to then characterise the most plausible mediators of fatigue which may be feasibly targeted in the future.
 * 2017-2020: EMS Technical and Data Coordinator for <a href="https://penctu.psmd.plymouth.ac.uk/pdstat/">PD-STAT</a> research study, Simvastatin as a Neuroprotective Treatment for Parkinson’s disease, a trial of 235 participants from 23 participating NHS hospitals across the UK.
@@ -34,7 +34,7 @@ Supervised by <a href="https://reillylab.net/celinedelooze">Dr. Céline de Looze
 
 Education
 ======
-* 2014-2018: PhD Electronic Engineering, University of York (UK). Supervision: <a href="https://www.york.ac.uk/electronic-engineering/staff/stephen_smith/">Professor Stephen L. Smith</a>.
+* 2014-2018: PhD Electronic Engineering, University of York (UK). Supervision: <a href="https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/">Professor Stephen L. Smith</a>.
 
 _Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson’s Disease._ Topics examined included the analysis of resting state fMRI data using Dynamic Causal Modeling and timeseries analysis. The extracted features from the analyses were then subjected to the classifiers that were developed based on Cartesian Genetic Programming, Artificial Neural Networks, and Support Vector Machines.
 
@@ -87,7 +87,7 @@ Service and leadership
 * 2022: Conference committee member of <a href="https://iconip2022.apnns.org/">ICONIP 2022&#42;</a>, 29th International Conference on Neural Information Processing, in New Delhi (India).
 * 2022: Conference committee member of <a href="http://www.evostar.org/2022/evoapps/">EvoApplications&#42;</a>, 25th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2022, held in Madrid (Spain).
 * 2021: Reviewer for the journal of Frontiers in Human Neuroscience.
-* 2021: <a href="http://www.sinapse.ac.uk/research-resources/topic-groups#IA">SINAPSE-IA</a> Deputy Lead
+* 2021: <a href="https://www.sinapse.ac.uk/research-resources/themes/#IA">SINAPSE-IA</a> Deputy Lead
 * 2021: Reviewer for the journal of Genetic Programming and Evolvable Machines.
 * 2021: Conference committee member of <a href="http://www.evostar.org/2021/evoapps/">EvoApplications&#42;</a>, 24th European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2021, held virtually.
 * 2020: Conference committee member of <a href="http://www.evostar.org/2020/evoapps/">EvoApplications&#42;</a>, 23rd European Conference on the Applications of Evolutionary and bio-inspired Computation, part of evo*2020, held virtually.

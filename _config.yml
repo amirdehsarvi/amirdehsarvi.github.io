@@ -130,7 +130,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &amirdehsarvi
+  username               : "amirdehsarvi"
 facebook:
   username               :
   app_id                 :
