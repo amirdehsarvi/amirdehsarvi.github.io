@@ -26,8 +26,8 @@
 .about-hero {
 	position: relative;
 	margin: 1.5rem 0 2rem;
-	padding: 2.5rem 1rem 2rem;
-	min-height: 300px;
+	padding: 2rem 1rem;
+	min-height: 340px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
