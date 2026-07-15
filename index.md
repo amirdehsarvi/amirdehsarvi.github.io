@@ -14,9 +14,6 @@
 	<p>
 		I hold a PhD in Electronic Engineering from the University of York, and my path to industry ran through postdoctoral research at Trinity College Dublin, the University of Aberdeen, the University of York, and most recently the Institute for Stroke and Dementia Research (ISD) at LMU Munich. Alongside this, I served for seven years as Chief Technology Officer at ClearSky Medical Diagnostics, developing ML-based medical devices for neurodegenerative conditions.
 	</p>
-	<p>
-		At LMU I built <b>ADPrep</b>, a fully automated multi-modal neuroimaging preprocessing pipeline (MRI, fMRI, PET, DTI) now underpinning more than 25 peer-reviewed publications and slated for integration into the <a href="https://www.grip-research.org/platform">GRIP platform</a>, a Gates Ventures initiative. I also developed a deep learning model that infers full Alzheimer's disease A/T/N classification from a single tau-PET scan, predicting amyloid-PET (r=0.8) and grey matter density (r=0.76).
-	</p>
 	<p class="about-intro__links">
 		<a href="/about/">More about my background</a> &nbsp;·&nbsp; <a href="/publications/">Publications</a> &nbsp;·&nbsp; <a href="/cv/">CV</a>
 	</p>
