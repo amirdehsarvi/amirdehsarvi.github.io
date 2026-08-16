@@ -4,7 +4,7 @@ title: "Curriculum vitae"
 eyebrow: "CV"
 subtitle: "Positions, education, research coordination and technical background. A PDF version is available to download."
 permalink: /cv/
-description: "Curriculum vitae of Dr Amir Dehsarvi, Principal Scientist in Neuroimaging at Boehringer Ingelheim."
+description: "Curriculum vitae of Dr Amir Dehsarvi, Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim."
 redirect_from:
   - /resume
 ---
@@ -12,7 +12,7 @@ redirect_from:
 <p><a class="btn btn--primary" href="/files/CV_Dehsarvi.pdf"><svg class="ic" aria-hidden="true"><use href="#i-arrow-down"></use></svg> Download CV (PDF)</a></p>
 
 ## Current Positions
-* 2025 to date: Principal Scientist Neuroimaging, Boehringer Ingelheim.
+* 2025 to date: Principal Scientist, Imaging Biomarkers, Boehringer Ingelheim. Quantitative imaging biomarkers for diagnosis and drug development — neuroimaging at the core, extending across organ systems including the retina and abdominal MR.
 
 ## Previous Research Positions
 * 2018-2025: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.

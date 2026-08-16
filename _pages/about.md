@@ -2,25 +2,27 @@
 layout: page
 title: "About"
 eyebrow: "Background"
-subtitle: "Principal Scientist in Neuroimaging at Boehringer Ingelheim — a decade of machine learning applied to medical imaging, across academia, medical devices and pharmaceutical R&D."
+subtitle: "Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim — a decade of machine learning applied to medical imaging, across academia, medical devices and pharmaceutical R&D."
 permalink: /about/
-description: "Background, experience and education of Dr Amir Dehsarvi, Principal Scientist in Neuroimaging at Boehringer Ingelheim."
+description: "Background, experience and education of Dr Amir Dehsarvi, Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim."
 redirect_from:
   - /about.html
 ---
 
 ## Research focus
 
-I apply machine learning and deep learning to complex biomedical data, with multimodal neuroimaging as the central lens. My work centres on building end-to-end analytical pipelines that integrate brain imaging with other modalities — including EEG, movement and speech — to accelerate diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism and depression.
+I work on quantitative imaging biomarkers: applying machine learning and deep learning to medical images so they can serve as measurable evidence of disease and of treatment effect. Neuroimaging remains the centre of gravity — multimodal MRI, fMRI, PET and DTI — and the same methods now extend across organ systems, including retinal imaging and abdominal MR.
+
+My work centres on building end-to-end analytical pipelines that integrate imaging with other modalities — including EEG, movement and speech — to accelerate diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism and depression.
 
 That work spans the full path from method to deployment: designing the analysis, validating it against clinical endpoints, and engineering it so other teams can run it reproducibly at scale. My proficiency spans Python, MATLAB, R and Shell, together with the major deep learning frameworks, alongside scalable data engineering and high-performance computing.
 
 ## Professional experience
 
-<span class="role">2025 — present · Principal Scientist, Neuroimaging</span>
+<span class="role">2025 — present · Principal Scientist, Imaging Biomarkers</span>
 <span class="muted-line">[Boehringer Ingelheim](https://www.boehringer-ingelheim.com), Germany</span>
 
-Applying machine learning and deep learning to medical imaging data to accelerate disease diagnosis and therapeutic target identification.
+Developing quantitative imaging biomarkers to accelerate disease diagnosis, therapeutic target identification and drug development. Neuroimaging is the primary focus, with the remit extending across organ systems including retinal imaging and abdominal MR.
 
 <span class="role">2022 — 2025 · Postdoctoral Researcher</span>
 <span class="muted-line">Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München, Germany</span>
@@ -81,6 +83,7 @@ By its nature this work is highly interdisciplinary, and I have been fortunate t
 <div class="tags tags--lg">
   <span class="tag">Machine learning</span>
   <span class="tag">Deep learning</span>
+  <span class="tag">Imaging biomarkers</span>
   <span class="tag">Neuroimaging analysis</span>
   <span class="tag">MRI · fMRI · PET · DTI</span>
   <span class="tag">Python</span>

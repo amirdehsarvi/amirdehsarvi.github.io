@@ -4,11 +4,11 @@
 hero:
   status: "Boehringer Ingelheim · Germany"
   heading: "Amir Dehsarvi"
-  role: "Principal Scientist, Neuroimaging"
+  role: "Principal Scientist, Imaging Biomarkers"
   lead: >-
-    I build machine learning and deep learning systems for multimodal medical imaging —
-    turning MRI, fMRI, PET and DTI data into evidence that accelerates diagnosis,
-    target identification and drug development in neurodegenerative disease.
+    I build machine learning and deep learning systems that turn medical images into
+    quantitative biomarkers — neuroimaging above all, and increasingly retinal imaging and
+    abdominal MR — as evidence for diagnosis, target identification and drug development.
 
 metrics:
   - value: 25
@@ -23,10 +23,11 @@ metrics:
 
 focus:
   - icon: "brain"
-    title: "Translational neuroimaging AI"
+    title: "Imaging biomarkers, brain first"
     text: >-
-      Deep learning across MRI, fMRI, PET and DTI to detect disease earlier, stage it more
-      precisely, and surface therapeutic targets — in Alzheimer's, Parkinson's, autism and depression.
+      Deep learning across MRI, fMRI, PET and DTI to detect disease earlier, stage it more precisely
+      and surface therapeutic targets. Neurodegeneration remains the core; the same methods now
+      extend to retinal imaging and abdominal MR.
   - icon: "stethoscope"
     title: "Clinical-grade ML systems"
     text: >-
@@ -74,9 +75,9 @@ work:
 
 timeline:
   - date: "2025 — present"
-    role: "Principal Scientist, Neuroimaging"
+    role: "Principal Scientist, Imaging Biomarkers"
     org: "Boehringer Ingelheim, Germany"
-    text: "Applying machine learning and deep learning to medical imaging data for disease diagnosis and drug development."
+    text: "Developing quantitative imaging biomarkers for diagnosis and drug development — neuroimaging at the core, extending across organ systems including the retina and abdominal MR."
   - date: "2022 — 2025"
     role: "Postdoctoral Researcher"
     org: "Institute for Stroke and Dementia Research (ISD), LMU Munich"
