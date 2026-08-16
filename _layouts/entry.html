@@ -1,0 +1,38 @@
+---
+layout: base
+---
+<header class="page-head">
+  <div class="wrap wrap--narrow">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span>
+      {% if page.collection == 'publications' %}<a href="/publications/">Publications</a>
+      {% elsif page.collection == 'talks' %}<a href="/talks/">Talks</a>
+      {% elsif page.collection == 'teaching' %}<a href="/teaching/">Teaching</a>
+      {% endif %}
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <p class="page-head__sub">
+      {% if page.venue %}{{ page.venue }}{% endif %}
+      {% if page.location %} · {{ page.location }}{% endif %}
+      {% if page.date %} · {{ page.date | date: "%B %Y" }}{% endif %}
+    </p>
+    {% if page.paperurl %}
+    <p style="margin-top:1.4rem">
+      <a class="btn btn--primary btn--sm" href="{{ page.paperurl }}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-external-link"></use></svg> Read the paper</a>
+    </p>
+    {% endif %}
+  </div>
+</header>
+
+<div class="prose">
+  <div class="wrap wrap--narrow">
+    {{ content }}
+
+    {% if page.citation %}
+    <div class="panel" style="margin-top:2.5rem">
+      <h4 style="font-family:var(--font-sans);font-size:0.76rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem">Recommended citation</h4>
+      <p style="margin:0;font-size:0.93rem;color:var(--muted)">{{ page.citation }}</p>
+    </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,23 +1,20 @@
 ---
-# layout: archive
-title: "CV"
+layout: page
+title: "Curriculum vitae"
+eyebrow: "CV"
+subtitle: "Positions, education, research coordination and technical background. A PDF version is available to download."
 permalink: /cv/
-author_profile: true
+description: "Curriculum vitae of Dr Amir Dehsarvi, Principal Scientist in Neuroimaging at Boehringer Ingelheim."
 redirect_from:
   - /resume
 ---
 
+<p><a class="btn btn--primary" href="/files/CV_Dehsarvi.pdf"><svg class="ic" aria-hidden="true"><use href="#i-arrow-down"></use></svg> Download CV (PDF)</a></p>
 
-{% include base_path %}
-
-**Download a copy of my <a href="https://amirdehsarvi.github.io/files/CV_Dehsarvi.pdf">CV</a>.**
-
-Current Positions
-======
+## Current Positions
 * 2025 to date: Principal Scientist Neuroimaging, Boehringer Ingelheim.
 
-Previous Research Positions
-======
+## Previous Research Positions
 * 2018-2025: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
 * 2022-2025: Postdoctoral Researcher, The Institute for Stroke and Dementia Research (ISD), The Ludwig-Maximilians-University Munich Medical Center (Germany)
 I developed and deployed ADPREP, an automated neuroimaging pipeline that standardizes data from multiple modalities (MRI, fMRI, PET, DTI). Its effectiveness is demonstrated by its use in over 25 peer-reviewed publications since 2023, and it is now set for integration into the [GRIP platform](https://www.grip-research.org/platform), a Gates Ventures initiative. I also created a deep learning model to infer full Alzheimer's disease A/T/N classification from single tau-PET scans, achieving high predictive accuracy for amyloid-PET (r=0.8) and MRI grey matter density (r=0.76). In addition to my research, I managed the High-Performance Computing (HPC) resources for the lab and provided data analysis support to my colleagues while also serving as an IT assistant for the LMU Hospital.
@@ -32,8 +29,7 @@ Supervised by <a href="https://www.abdn.ac.uk/ims/people/profiles/g.waiter">Dr. 
 * 2019: Post-Doctoral Researcher in Neuroimaging, The Neural Engineering Group within the Trinity Centre for Bioengineering and the Trinity College Institute of Neuroscience at the University of Dublin (Ireland)
 Supervised by <a href="https://reillylab.net/celinedelooze">Dr. Céline de Looze</a> and <a href="https://reillylab.net/richard-reilly">Professor Richard Reilly</a>. In this research project, we investigated the impact cognitive impairment may have on a person’s ability to communicate and how, in turn, such cognitive and speech difficulties may affect the quality of their day-to-day interactions. This research identified speech markers and their underlying neural correlates (brain structure and functional connectivity) for the detection of cognitive impairment in MCI and AD. It also established efficient communications strategies between a person with MCI or AD and their caregivers in order to enhance the quality of their day-to-day interactions.
 
-Education
-======
+## Education
 * 2014-2018: PhD Electronic Engineering, University of York (UK). Supervision: <a href="https://www.york.ac.uk/physics-engineering-technology/people/stephen_smith/">Professor Stephen L. Smith</a>.
 
 _Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a Brain Imaging Biomarker for Parkinson’s Disease._ Topics examined included the analysis of resting state fMRI data using Dynamic Causal Modeling and timeseries analysis. The extracted features from the analyses were then subjected to the classifiers that were developed based on Cartesian Genetic Programming, Artificial Neural Networks, and Support Vector Machines.
@@ -43,42 +39,35 @@ _Cartesian Genetic Programming Classification of Resting-State fMRI: Towards a B
 * 2013: MSc Digital Signal Processing, University of York (UK).
 * 2010: BSc Applied Science Electronics, University of Science and Arts of Yazd (Iran).
 
-Work experience
-======
+## Work experience
 * 2021: Machine Learning and Image Processing Engineer, <a href="https://smartr.ai">smartR.ai</a>, located in the Silicon Valley, smartR.ai is experienced in delivering solutions in the embedded marketspace. The company has worked on Machine Vision, Robotics, Fintech, Medical, and Consumer products for customers worldwide.
 * 2014-2018: Technical Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>, a spinout company which specialises in medical devices for the diagnosis and monitoring of Parkinson’s disease, Alzheimer’s disease and a range of other neurodegenerative conditions.
 * 2016-2017: Professional Engineer, My Therapy Tools Ltd., a start-up company involved in the Horizon 2020 EU programme with the project <a href="https://cordis.europa.eu/project/id/745431">“Acquired brain injury telerehabilitation system with high impact in patient’s wellbeing at limited cost”</a> under SME instrument phase 1 funding scheme.
 * 2010-2012: Control Engineer, working in ‘Padideh Control Engineering’ Office. Programming and installing PLC devices.
   
-Research Interests
-======
+## Research Interests
 Machine Learning, Deep Learning, Classification, Cartesian Genetic Programming, Evolutionary Algorithms, Neuroimaging data analysis, Mediation Analysis, and Neurodegenerative Diseases Diagnosis (Biomarkers) and Monitoring.
 
-Technical Skills
-======
+## Technical Skills
 Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performance Computing, MATLAB, C, R, Python, Shell, PHP, SQL, AI-based medical devices.
 
-Publications
-======
+## Publications
 
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
-======
+## Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
+## Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
+## Service and leadership
 * 2025: Reviewer for the journal of Neural Computing and Applications
 * 2024: Reviewer for the journal of Health Science Reports
 * 2024: Reviewer for the journal of Neural Computing and Applications

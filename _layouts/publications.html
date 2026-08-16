@@ -1,0 +1,43 @@
+---
+layout: base
+---
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+
+<header class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">{{ pubs | size }} publications</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="page-head__sub">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</header>
+
+<div class="prose">
+  <div class="wrap">
+    <div class="filters" data-filter-bar>
+      <button type="button" data-filter="all" class="is-active">All</button>
+      <button type="button" data-filter="manuscripts">Journal articles</button>
+      <button type="button" data-filter="conferences">Conference papers &amp; abstracts</button>
+    </div>
+
+    <div class="pub-list">
+      {% for pub in pubs %}
+      <article class="pub" data-filter-item="{{ pub.category }}" data-reveal="0">
+        <div class="pub__year">{{ pub.date | date: "%Y" }}</div>
+        <div>
+          <a class="pub__title" href="{{ pub.url }}">{{ pub.title }}</a>
+          {% if pub.venue %}<div class="pub__venue">{{ pub.venue }}</div>{% endif %}
+          {% if pub.excerpt %}<p class="pub__excerpt">{{ pub.excerpt }}</p>{% endif %}
+          <div class="pub__links">
+            <a class="link-arrow" href="{{ pub.url }}">Summary</a>
+            {% if pub.paperurl %}<a class="link-arrow" href="{{ pub.paperurl }}" target="_blank" rel="noopener">Publisher</a>{% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% if site.author.googlescholar %}
+    <p style="margin-top:2.4rem"><a class="link-arrow" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Full list on Google Scholar</a></p>
+    {% endif %}
+  </div>
+</div>

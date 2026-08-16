@@ -8,11 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "AMIR DEHSARVI"
-title                    : "AMIR DEHSARVI"
-title_separator          : "-"
+site_theme               : "default"
+title                    : "Amir Dehsarvi"
+title_separator          : "·"
+tagline                  : "Principal Scientist, Neuroimaging"
 name                     : &name "Amir Dehsarvi"
-description              : &description "personal description"
+description              : &description "Dr Amir Dehsarvi — Principal Scientist in Neuroimaging at Boehringer Ingelheim. Machine learning and deep learning for multimodal medical imaging in neurodegenerative disease."
 url                      : https://amirdehsarvi.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amirdehsarvi/amirdehsarvi.github.io"
@@ -224,9 +225,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -234,65 +232,31 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: page
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: false
+      layout: entry
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: false
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      comment: false
+      layout: entry
   # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: talk
-      author_profile: true
-      share: true
+      layout: entry
 
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting

@@ -1,0 +1,36 @@
+---
+layout: base
+---
+{% if page.collection == 'talks' %}
+  {% assign items = site.talks | sort: 'date' | reverse %}
+{% else %}
+  {% assign items = site.teaching | sort: 'date' | reverse %}
+{% endif %}
+
+<header class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">{{ items | size }} entries</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="page-head__sub">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</header>
+
+<div class="prose">
+  <div class="wrap">
+    {{ content }}
+    <div class="entry-list">
+      {% for item in items %}
+      <article class="entry" data-reveal="0">
+        <div class="entry__meta">
+          {% if item.type %}<b>{{ item.type }}</b>{% endif %}
+          <span>{{ item.date | date: "%B %Y" }}</span>
+          {% if item.venue %}<span>{{ item.venue }}</span>{% endif %}
+          {% if item.location %}<span>{{ item.location }}</span>{% endif %}
+        </div>
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        {% if item.excerpt %}<p>{{ item.excerpt | strip_html | truncate: 230 }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>

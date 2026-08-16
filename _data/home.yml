@@ -1,0 +1,107 @@
+# Homepage content. Edit this file to update the landing page —
+# no HTML changes needed.
+
+hero:
+  status: "Boehringer Ingelheim · Germany"
+  heading: "Amir Dehsarvi"
+  role: "Principal Scientist, Neuroimaging"
+  lead: >-
+    I build machine learning and deep learning systems for multimodal medical imaging —
+    turning MRI, fMRI, PET and DTI data into evidence that accelerates diagnosis,
+    target identification and drug development in neurodegenerative disease.
+
+metrics:
+  - value: 25
+    suffix: "+"
+    label: "Peer-reviewed papers built on ADPrep, the imaging pipeline I developed"
+  - value: 7
+    suffix: " yrs"
+    label: "As Chief Technology Officer of an AI medical-device company"
+  - value: 3
+    suffix: ""
+    label: "Clinical ML device programmes contributed to — PD-, LID- and MCI-Monitor"
+
+focus:
+  - icon: "brain"
+    title: "Translational neuroimaging AI"
+    text: >-
+      Deep learning across MRI, fMRI, PET and DTI to detect disease earlier, stage it more
+      precisely, and surface therapeutic targets — in Alzheimer's, Parkinson's, autism and depression.
+  - icon: "stethoscope"
+    title: "Clinical-grade ML systems"
+    text: >-
+      Taking models from prototype to validated, deployable tools: regulated medical-device
+      programmes, clinical trial data pipelines, and models clinicians can actually act on.
+  - icon: "server"
+    title: "Reproducible pipelines at scale"
+    text: >-
+      Automated, reproducible preprocessing and data engineering on HPC infrastructure, so
+      multi-site imaging studies run consistently and research teams move faster.
+
+work:
+  - meta: "Research infrastructure"
+    title: "ADPrep — automated neuroimaging preprocessing"
+    text: >-
+      An end-to-end pipeline that standardises multimodal imaging data (MRI, fMRI, PET, DTI) for
+      large multi-site studies. Used in more than 25 peer-reviewed publications since 2023 and set for
+      integration into the GRIP platform, a Gates Ventures initiative.
+    tags: ["Python", "MATLAB", "R", "Shell", "HPC"]
+    url: "https://www.grip-research.org/platform"
+    url_label: "GRIP platform"
+  - meta: "Deep learning · Alzheimer's disease"
+    title: "A/T/N staging from a single tau-PET scan"
+    text: >-
+      A deep learning model that infers full Alzheimer's A/T/N classification from one tau-PET
+      acquisition, reaching r = 0.80 against amyloid-PET and r = 0.76 against MRI grey-matter
+      density — reducing the scans a patient needs.
+    tags: ["Deep learning", "PET", "Biomarkers"]
+  - meta: "Medical devices · CTO"
+    title: "ClearSky diagnostic device portfolio"
+    text: >-
+      Seven years leading technology for ML-based medical devices for diagnosing and monitoring
+      neurodegenerative conditions — PD-Monitor, LID-Monitor and MCI-Monitor — working alongside
+      clinicians and engineers to move AI into clinical use.
+    tags: ["Movement disorders", "Regulated software", "Signal processing"]
+    url: "https://www.clearskymd.com"
+    url_label: "ClearSky Medical Diagnostics"
+  - meta: "Multimodal imaging · Clinical trials"
+    title: "A brain network for chronic fatigue"
+    text: >-
+      Within the multicentre LIFT trial, multimodal MRI/fMRI and machine learning were used to define
+      a fatigue-related brain network in rheumatoid arthritis and characterise the mediators most
+      plausibly open to future intervention.
+    tags: ["Multimodal MRI", "Evolutionary algorithms", "Mediation analysis"]
+
+timeline:
+  - date: "2025 — present"
+    role: "Principal Scientist, Neuroimaging"
+    org: "Boehringer Ingelheim, Germany"
+    text: "Applying machine learning and deep learning to medical imaging data for disease diagnosis and drug development."
+  - date: "2022 — 2025"
+    role: "Postdoctoral Researcher"
+    org: "Institute for Stroke and Dementia Research (ISD), LMU Munich"
+    text: "Built ADPrep and the tau-PET A/T/N model; managed HPC resources and supported labs across the institute."
+  - date: "2018 — 2025"
+    role: "Chief Technology Officer"
+    org: "ClearSky Medical Diagnostics Ltd., York"
+    text: "Led development of ML-based medical devices for neurodegenerative diagnosis and monitoring."
+  - date: "2021 — 2022"
+    role: "Postdoctoral Research Associate"
+    org: "University of York"
+    text: "White-box machine learning on resting-state fMRI to separate depression from healthy controls in UK Biobank data."
+  - date: "2021"
+    role: "ML & Image Processing Engineer"
+    org: "smartR.ai, Edinburgh"
+    text: "Deep learning pipelines to normalise and match colour profiles between FIBI and H&E histological images."
+  - date: "2020 — 2021"
+    role: "Research Fellow"
+    org: "University of Aberdeen"
+    text: "Defined a fatigue-related brain network in rheumatoid arthritis and explored how therapies affect it."
+  - date: "2019"
+    role: "Postdoctoral Researcher in Neuroimaging"
+    org: "Trinity College Dublin"
+    text: "Linked speech patterns to brain volume change in MCI and Alzheimer's disease as an early marker of decline."
+  - date: "2014 — 2018"
+    role: "PhD, Electronic Engineering"
+    org: "University of York"
+    text: "Cartesian Genetic Programming classification of resting-state fMRI: towards a brain imaging biomarker for Parkinson's disease."
