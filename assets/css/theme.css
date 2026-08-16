@@ -1019,3 +1019,26 @@ html[data-theme="dark"] .filters button.is-active { color: #04161a; }
 .tags--lg { gap: 0.5rem; margin-top: 0.6rem; }
 .tags--lg .tag { font-size: 0.83rem; padding: 0.4rem 0.85rem; }
 .entry-list { margin-top: 0.5rem; }
+
+/* ---------- CV inline lists ---------- */
+.cv-list { list-style: none; padding-left: 0; }
+.cv-list li {
+  position: relative;
+  padding: 0.55rem 0 0.55rem 3.9rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+.cv-list li:last-child { border-bottom: 0; }
+.cv-list__year {
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.cv-list em { color: var(--muted); font-style: normal; display: block; font-size: 0.89rem; margin-top: 0.1rem; }
+@media (max-width: 560px) {
+  .cv-list li { padding-left: 0; padding-top: 1.5rem; }
+  .cv-list__year { top: 0; }
+}

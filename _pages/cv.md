@@ -53,19 +53,28 @@ Machine Learning, Deep Learning, Git, Neuroimaging data analysis, High Performan
 
 ## Publications
 
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% assign cv_pubs = site.publications | sort: 'date' | reverse %}
+<ul class="cv-list">
+{% for post in cv_pubs %}
+  <li><span class="cv-list__year">{{ post.date | date: "%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>{% if post.venue %} <em>{{ post.venue }}</em>{% endif %}</li>
+{% endfor %}
+</ul>
 
 ## Talks
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+{% assign cv_talks = site.talks | sort: 'date' | reverse %}
+<ul class="cv-list">
+{% for post in cv_talks %}
+  <li><span class="cv-list__year">{{ post.date | date: "%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>{% if post.venue %} <em>{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</em>{% endif %}</li>
+{% endfor %}
+</ul>
   
 ## Teaching
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% assign cv_teaching = site.teaching | sort: 'date' | reverse %}
+<ul class="cv-list">
+{% for post in cv_teaching %}
+  <li><span class="cv-list__year">{{ post.date | date: "%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>{% if post.venue %} <em>{{ post.venue }}</em>{% endif %}</li>
+{% endfor %}
+</ul>
   
 ## Service and leadership
 * 2025: Reviewer for the journal of Neural Computing and Applications
