@@ -6,9 +6,10 @@ hero:
   heading: "Amir Dehsarvi"
   role: "Principal Scientist, Imaging Biomarkers"
   lead: >-
-    I build machine learning and deep learning systems that turn medical images into
-    quantitative biomarkers — neuroimaging above all, and increasingly retinal imaging and
-    abdominal MR — as evidence for diagnosis, target identification and drug development.
+    I build end-to-end pipelines for processing and analysing medical imaging data, turning
+    MRI, fMRI, PET and DTI into quantitative biomarkers for diagnosis, target identification
+    and drug development. Neuroimaging is the core, increasingly alongside retinal imaging
+    and abdominal MR.
 
 metrics:
   - value: 25
@@ -23,21 +24,22 @@ metrics:
 
 focus:
   - icon: "brain"
-    title: "Imaging biomarkers, brain first"
+    title: "End-to-end imaging pipelines"
     text: >-
-      Deep learning across MRI, fMRI, PET and DTI to detect disease earlier, stage it more precisely
-      and surface therapeutic targets. Neurodegeneration remains the core; the same methods now
-      extend to retinal imaging and abdominal MR.
-  - icon: "stethoscope"
-    title: "Clinical-grade ML systems"
-    text: >-
-      Taking models from prototype to validated, deployable tools: regulated medical-device
-      programmes, clinical trial data pipelines, and models clinicians can actually act on.
+      Designing and building the full path from raw scan to analysable measure — multimodal MRI,
+      fMRI, PET and DTI. Neurodegeneration remains the core; the same approach now extends to
+      retinal imaging and abdominal MR.
   - icon: "server"
-    title: "Reproducible pipelines at scale"
+    title: "Reproducible analysis at scale"
     text: >-
-      Automated, reproducible preprocessing and data engineering on HPC infrastructure, so
-      multi-site imaging studies run consistently and research teams move faster.
+      Automated, reproducible processing and data engineering on HPC infrastructure, so multi-site
+      imaging studies run consistently and other teams can pick the work up and run it themselves.
+  - icon: "stethoscope"
+    title: "Evidence teams can act on"
+    text: >-
+      Analyses validated against clinical endpoints and delivered as measures that support diagnosis,
+      target identification and drug development — informed by earlier work building machine learning
+      for regulated medical devices and clinical trials.
 
 work:
   - meta: "Research infrastructure"
@@ -77,7 +79,7 @@ timeline:
   - date: "2025 — present"
     role: "Principal Scientist, Imaging Biomarkers"
     org: "Boehringer Ingelheim, Germany"
-    text: "Developing quantitative imaging biomarkers for diagnosis and drug development — neuroimaging at the core, extending across organ systems including the retina and abdominal MR."
+    text: "Building end-to-end pipelines for processing and analysing imaging data, and the quantitative biomarkers derived from them — neuroimaging at the core, extending across organ systems including the retina and abdominal MR."
   - date: "2022 — 2025"
     role: "Postdoctoral Researcher"
     org: "Institute for Stroke and Dementia Research (ISD), LMU Munich"

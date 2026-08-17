@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 eyebrow: "Background"
-subtitle: "Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim — a decade of machine learning applied to medical imaging, across academia, medical devices and pharmaceutical R&D."
+subtitle: "Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim — a decade of imaging analysis, pipeline engineering and machine learning research, across academia, medical devices and pharmaceutical R&D."
 permalink: /about/
 description: "Background, experience and education of Dr Amir Dehsarvi, Principal Scientist, Imaging Biomarkers at Boehringer Ingelheim."
 redirect_from:
@@ -11,18 +11,18 @@ redirect_from:
 
 ## Research focus
 
-I work on quantitative imaging biomarkers: applying machine learning and deep learning to medical images so they can serve as measurable evidence of disease and of treatment effect. Neuroimaging remains the centre of gravity — multimodal MRI, fMRI, PET and DTI — and the same methods now extend across organ systems, including retinal imaging and abdominal MR.
+I work on quantitative imaging biomarkers, and my day-to-day sits in the engineering of the analysis itself: designing and building end-to-end pipelines that take imaging data from raw acquisition through processing to the measures a study actually reports. Neuroimaging remains the centre of gravity — multimodal MRI, fMRI, PET and DTI — and the same approach now extends across organ systems, including retinal imaging and abdominal MR.
 
-My work centres on building end-to-end analytical pipelines that integrate imaging with other modalities — including EEG, movement and speech — to accelerate diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism and depression.
+These pipelines often integrate imaging with other modalities — EEG, movement and speech — to support diagnosis and therapeutic target identification in Alzheimer's disease, Parkinson's disease, autism and depression. The emphasis is on getting the analysis right and making it reproducible: validated against clinical endpoints, and engineered so other teams can run it consistently at scale.
 
-That work spans the full path from method to deployment: designing the analysis, validating it against clinical endpoints, and engineering it so other teams can run it reproducibly at scale. My proficiency spans Python, MATLAB, R and Shell, together with the major deep learning frameworks, alongside scalable data engineering and high-performance computing.
+Earlier in my career the work was more squarely in machine learning and deep learning — evolutionary-algorithm classifiers for resting-state fMRI in my PhD, white-box models for depression in UK Biobank data, deep learning for A/T/N staging from tau-PET, and the ML behind diagnostic devices at ClearSky. That background still shapes how I build and evaluate analyses, and I draw on it when a problem calls for it. My proficiency spans Python, MATLAB, R and Shell, alongside scalable data engineering and high-performance computing.
 
 ## Professional experience
 
 <span class="role">2025 — present · Principal Scientist, Imaging Biomarkers</span>
 <span class="muted-line">[Boehringer Ingelheim](https://www.boehringer-ingelheim.com), Germany</span>
 
-Developing quantitative imaging biomarkers to accelerate disease diagnosis, therapeutic target identification and drug development. Neuroimaging is the primary focus, with the remit extending across organ systems including retinal imaging and abdominal MR.
+Building end-to-end pipelines for the processing and analysis of imaging data, and the quantitative biomarkers derived from them, to support disease diagnosis, therapeutic target identification and drug development. Neuroimaging is the primary focus, with the remit extending across organ systems including retinal imaging and abdominal MR.
 
 <span class="role">2022 — 2025 · Postdoctoral Researcher</span>
 <span class="muted-line">Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München, Germany</span>
@@ -81,10 +81,12 @@ By its nature this work is highly interdisciplinary, and I have been fortunate t
 ## Technical skills
 
 <div class="tags tags--lg">
-  <span class="tag">Machine learning</span>
-  <span class="tag">Deep learning</span>
+  <span class="tag">Imaging analysis pipelines</span>
   <span class="tag">Imaging biomarkers</span>
   <span class="tag">Neuroimaging analysis</span>
+  <span class="tag">Data engineering</span>
+  <span class="tag">Machine learning</span>
+  <span class="tag">Deep learning</span>
   <span class="tag">MRI · fMRI · PET · DTI</span>
   <span class="tag">Python</span>
   <span class="tag">MATLAB</span>

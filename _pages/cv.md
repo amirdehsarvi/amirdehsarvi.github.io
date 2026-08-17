@@ -12,7 +12,7 @@ redirect_from:
 <p><a class="btn btn--primary" href="/files/CV_Dehsarvi.pdf"><svg class="ic" aria-hidden="true"><use href="#i-arrow-down"></use></svg> Download CV (PDF)</a></p>
 
 ## Current Positions
-* 2025 to date: Principal Scientist, Imaging Biomarkers, Boehringer Ingelheim. Quantitative imaging biomarkers for diagnosis and drug development — neuroimaging at the core, extending across organ systems including the retina and abdominal MR.
+* 2025 to date: Principal Scientist, Imaging Biomarkers, Boehringer Ingelheim. Building end-to-end pipelines for the processing and analysis of imaging data, and the quantitative biomarkers derived from them, to support diagnosis and drug development — neuroimaging at the core, extending across organ systems including the retina and abdominal MR.
 
 ## Previous Research Positions
 * 2018-2025: Chief Technology Officer, <a href="https://www.clearskymd.com/">ClearSky Medical Diagnostics Ltd.</a>.
