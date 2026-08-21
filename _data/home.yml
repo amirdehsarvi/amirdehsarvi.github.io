@@ -12,15 +12,18 @@ hero:
     and abdominal MR.
 
 metrics:
-  - value: 25
-    suffix: "+"
-    label: "Peer-reviewed papers built on ADPrep, the imaging pipeline I developed"
+  - value: 12
+    suffix: " yrs"
+    label: "Working with medical imaging data, from PhD through academia to industry"
   - value: 7
     suffix: " yrs"
     label: "As Chief Technology Officer of an AI medical-device company"
   - value: 3
     suffix: ""
     label: "Clinical ML device programmes contributed to — PD-, LID- and MCI-Monitor"
+  - value: 3
+    suffix: ""
+    label: "Multi-site Parkinson's trials supported as technical and data coordinator"
 
 focus:
   - icon: "brain"
@@ -42,22 +45,22 @@ focus:
       for regulated medical devices and clinical trials.
 
 work:
-  - meta: "Research infrastructure"
-    title: "ADPrep — automated neuroimaging preprocessing"
+  - meta: "Boehringer Ingelheim · current"
+    title: "Imaging biomarkers across organ systems"
     text: >-
-      An end-to-end pipeline that standardises multimodal imaging data (MRI, fMRI, PET, DTI) for
-      large multi-site studies. Used in more than 25 peer-reviewed publications since 2023 and set for
-      integration into the GRIP platform, a Gates Ventures initiative.
+      Building and running the pipelines and analyses that turn imaging data into quantitative
+      biomarkers for drug development. Neuroimaging is the core of the work, with the remit
+      extending to retinal imaging and abdominal MR.
+    tags: ["Neuroimaging", "Retinal imaging", "Abdominal MR", "Drug development"]
+  - meta: "Research infrastructure"
+    title: "ADPrep — end-to-end multimodal imaging pipeline"
+    text: >-
+      An automated pipeline standardising multimodal imaging data (MRI, fMRI, PET, DTI) for large
+      multi-site studies, from raw acquisition through quality control to analysable measures. Set
+      for integration into the GRIP platform, a Gates Ventures initiative.
     tags: ["Python", "MATLAB", "R", "Shell", "HPC"]
     url: "https://www.grip-research.org/platform"
     url_label: "GRIP platform"
-  - meta: "Deep learning · Alzheimer's disease"
-    title: "A/T/N staging from a single tau-PET scan"
-    text: >-
-      A deep learning model that infers full Alzheimer's A/T/N classification from one tau-PET
-      acquisition, reaching r = 0.80 against amyloid-PET and r = 0.76 against MRI grey-matter
-      density — reducing the scans a patient needs.
-    tags: ["Deep learning", "PET", "Biomarkers"]
   - meta: "Medical devices · CTO"
     title: "ClearSky diagnostic device portfolio"
     text: >-
@@ -67,13 +70,13 @@ work:
     tags: ["Movement disorders", "Regulated software", "Signal processing"]
     url: "https://www.clearskymd.com"
     url_label: "ClearSky Medical Diagnostics"
-  - meta: "Multimodal imaging · Clinical trials"
-    title: "A brain network for chronic fatigue"
+  - meta: "Clinical trials"
+    title: "Imaging and data coordination for multi-site trials"
     text: >-
-      Within the multicentre LIFT trial, multimodal MRI/fMRI and machine learning were used to define
-      a fatigue-related brain network in rheumatoid arthritis and characterise the mediators most
-      plausibly open to future intervention.
-    tags: ["Multimodal MRI", "Evolutionary algorithms", "Mediation analysis"]
+      Technical and data coordination across Parkinson's disease trials — PD-STAT, spanning 235
+      participants at 23 NHS hospitals, the Phase III Exenatide-PD3 study and the Phase II AZA-PD
+      study — keeping instrumentation and data consistent across sites.
+    tags: ["Phase II / III", "Multi-site", "Movement disorders"]
 
 timeline:
   - date: "2025 — present"

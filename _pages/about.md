@@ -27,7 +27,7 @@ Building end-to-end pipelines for the processing and analysis of imaging data, a
 <span class="role">2022 — 2025 · Postdoctoral Researcher</span>
 <span class="muted-line">Institute for Stroke and Dementia Research (ISD), Ludwig-Maximilians-Universität München, Germany</span>
 
-- Developed **ADPrep**, an automated neuroimaging preprocessing pipeline (Python, MATLAB, R, Shell) covering MRI, fMRI, PET and DTI. Its effectiveness is demonstrated by use in over 25 peer-reviewed publications since 2023, and it is set for integration into the [GRIP platform](https://www.grip-research.org/platform), a Gates Ventures initiative.
+- Developed **ADPrep**, an automated neuroimaging preprocessing pipeline (Python, MATLAB, R, Shell) covering MRI, fMRI, PET and DTI, and adopted as standard preprocessing for the group's multimodal imaging studies. It is set for integration into the [GRIP platform](https://www.grip-research.org/platform), a Gates Ventures initiative.
 - Developed, validated and deployed a deep learning model that infers full Alzheimer's disease A/T/N classification from a single tau-PET scan, reaching high predictive accuracy for amyloid-PET (r = 0.80) and MRI grey-matter density (r = 0.76).
 - Managed the institute's high-performance computing resources and supported research labs with their data analysis, alongside serving as an IT assistant for the LMU Hospital.
 
