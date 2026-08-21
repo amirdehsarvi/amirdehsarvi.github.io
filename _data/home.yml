@@ -30,7 +30,7 @@ focus:
     title: "End-to-end imaging pipelines"
     text: >-
       Designing and building the full path from raw scan to analysable measure — multimodal MRI,
-      fMRI, PET and DTI. Neurodegeneration remains the core; the same approach now extends to
+      fMRI, PET and DTI. Neuroimaging remains the core; the same approach now extends to
       retinal imaging and abdominal MR.
   - icon: "server"
     title: "Reproducible analysis at scale"
@@ -71,12 +71,12 @@ work:
     url: "https://www.clearskymd.com"
     url_label: "ClearSky Medical Diagnostics"
   - meta: "Clinical trials"
-    title: "Imaging and data coordination for multi-site trials"
+    title: "Device and digital-marker data across multi-site trials"
     text: >-
-      Technical and data coordination across Parkinson's disease trials — PD-STAT, spanning 235
-      participants at 23 NHS hospitals, the Phase III Exenatide-PD3 study and the Phase II AZA-PD
-      study — keeping instrumentation and data consistent across sites.
-    tags: ["Phase II / III", "Multi-site", "Movement disorders"]
+      Technical and data coordination for the devices and digital markers used in Parkinson's disease
+      trials — PD-STAT, spanning 235 participants at 23 NHS hospitals, the Phase III Exenatide-PD3
+      study and the Phase II AZA-PD study — keeping instrumentation and data consistent across sites.
+    tags: ["Phase II / III", "Digital markers", "Movement disorders"]
 
 timeline:
   - date: "2025 — present"
