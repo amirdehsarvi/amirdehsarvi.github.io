@@ -57,11 +57,11 @@
   --ink:           #0f1a24;
   --ink-2:         #33424f;
   --muted:         #63727f;
-  --accent:        #0b6e7f;
-  --accent-ink:    #08525f;
-  --accent-soft:   rgba(11, 110, 127, 0.09);
-  --accent-line:   rgba(11, 110, 127, 0.28);
-  --navy:          #10344c;
+  --accent:        #1c6b4a;
+  --accent-ink:    #14523a;
+  --accent-soft:   rgba(28, 107, 74, 0.10);
+  --accent-line:   rgba(28, 107, 74, 0.28);
+  --navy:          #123a2c;
   --shadow-sm:     0 1px 2px rgba(15, 26, 36, 0.05);
   --shadow-md:     0 6px 24px -12px rgba(15, 26, 36, 0.18);
   --shadow-lg:     0 24px 60px -28px rgba(15, 26, 36, 0.30);
@@ -88,11 +88,11 @@ html[data-theme="dark"] {
   --ink:           #e9eff5;
   --ink-2:         #c2ced9;
   --muted:         #8a99a7;
-  --accent:        #4cb9c9;
-  --accent-ink:    #7fd4e0;
-  --accent-soft:   rgba(76, 185, 201, 0.13);
-  --accent-line:   rgba(76, 185, 201, 0.32);
-  --navy:          #9fc4dc;
+  --accent:        #4fbf8b;
+  --accent-ink:    #7fd9ae;
+  --accent-soft:   rgba(79, 191, 139, 0.14);
+  --accent-line:   rgba(79, 191, 139, 0.32);
+  --navy:          #a8d8bf;
   --shadow-sm:     0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-md:     0 8px 28px -14px rgba(0, 0, 0, 0.7);
   --shadow-lg:     0 28px 70px -32px rgba(0, 0, 0, 0.85);
@@ -428,9 +428,19 @@ html[data-theme="dark"] .icon-btn .moon { display: block; }
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
-  gap: clamp(2rem, 5vw, 4.5rem);
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
+}
+.hero__text { max-width: 36.5rem; }
+
+.hero__avatar {
+  display: block;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  margin-bottom: 1.1rem;
+  background: var(--surface);
+  box-shadow: 0 0 0 1px var(--border), 0 0 0 7px var(--accent-soft);
 }
 .hero__status {
   display: inline-flex;
@@ -750,7 +760,7 @@ html[data-theme="dark"] .cta { background: var(--surface); border: 1px solid var
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(70% 120% at 50% 0%, rgba(76, 185, 201, 0.22), transparent 60%);
+  background: radial-gradient(70% 120% at 50% 0%, rgba(79, 191, 139, 0.22), transparent 60%);
   pointer-events: none;
 }
 .cta > * { position: relative; z-index: 2; }

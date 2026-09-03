@@ -172,71 +172,126 @@
     });
   }
 
-  /* ---------- Hero background: soft connectome field ---------- */
+  /* ---------- Hero background: a brain-shaped connectome field ----------
+     Nodes are sampled inside a sagittal brain silhouette and stay inside it as
+     they drift; links form between near neighbours and brighten under the cursor. */
+  var BRAIN_PATH = "M 20 70 C 17 48 33 30 56 22 C 82 12 116 12 141 22 C 166 32 184 51 186 72 " +
+    "C 187 88 179 97 167 100 C 178 107 180 121 168 127 C 158 133 146 131 140 124 " +
+    "C 139 134 137 144 134 150 C 131 156 121 156 118 150 C 115 143 117 132 118 122 " +
+    "C 110 126 100 128 90 128 C 76 128 65 122 59 113 C 55 106 55 99 57 92 " +
+    "C 48 97 37 94 30 87 C 23 80 20 76 20 70 Z";
+  var BRAIN_W = 206, BRAIN_H = 170;
+
   var canvas = document.querySelector("[data-hero-canvas]");
-  if (canvas && !reduceMotion && canvas.getContext) {
+  if (canvas && !reduceMotion && canvas.getContext && window.Path2D && window.DOMMatrix) {
     var ctx = canvas.getContext("2d");
     var nodes = [];
     var width = 0, height = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
     var pointer = { x: -9999, y: -9999 };
     var rafId = null;
+    var brainPath = null, mask = null, linkDist = 60, narrow = false;
 
     function accentColor() {
       var c = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();
-      return c || "#0b6e7f";
+      return c || "#1c6b4a";
     }
     var stroke = accentColor();
+
+    function buildBrain() {
+      // fit the silhouette into the hero, biased right so it sits behind the portrait
+      // large enough that the silhouette still reads around the text and portrait
+      // narrow screens: sit it low and faint so it never fights the copy
+      narrow = width < 800;
+      var scale = narrow
+        ? Math.min((width * 0.78) / BRAIN_W, (height * 0.42) / BRAIN_H)
+        : Math.min((width * 0.52) / BRAIN_W, (height * 0.86) / BRAIN_H);
+      var w = BRAIN_W * scale, h = BRAIN_H * scale;
+      var ox = (narrow ? width * 0.60 : width * 0.72) - w / 2;
+      var oy = (narrow ? height * 0.80 : height * 0.50) - h / 2;
+      brainPath = new Path2D();
+      brainPath.addPath(new Path2D(BRAIN_PATH), new DOMMatrix().translate(ox, oy).scale(scale));
+      linkDist = Math.max(38, scale * 17);
+
+      // membership mask, one byte per CSS pixel — cheap to test every frame
+      var mc = document.createElement("canvas");
+      mc.width = Math.max(1, Math.round(width));
+      mc.height = Math.max(1, Math.round(height));
+      var mctx = mc.getContext("2d");
+      mctx.fillStyle = "#fff";
+      mctx.fill(brainPath);
+      var data = mctx.getImageData(0, 0, mc.width, mc.height).data;
+      var m = new Uint8Array(mc.width * mc.height);
+      for (var i = 0, p = 3; i < m.length; i++, p += 4) m[i] = data[p] > 128 ? 1 : 0;
+      mask = { w: mc.width, h: mc.height, d: m };
+    }
+
+    function inside(x, y) {
+      if (!mask || x < 0 || y < 0 || x >= mask.w || y >= mask.h) return false;
+      return mask.d[(y | 0) * mask.w + (x | 0)] === 1;
+    }
 
     function resize() {
       var rect = canvas.getBoundingClientRect();
       width = rect.width; height = rect.height;
+      if (!width || !height) return;
       canvas.width = Math.floor(width * dpr);
       canvas.height = Math.floor(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var count = Math.round(Math.min(72, Math.max(26, (width * height) / 16000)));
+      buildBrain();
+
+      var area = 0;
+      for (var q = 0; q < mask.d.length; q++) area += mask.d[q];
+      var count = Math.round(Math.min(190, Math.max(60, area / 1700)));
       nodes = [];
-      for (var i = 0; i < count; i++) {
+      var guard = 0;
+      while (nodes.length < count && guard++ < count * 400) {
+        var x = Math.random() * width, y = Math.random() * height;
+        if (!inside(x, y)) continue;
         nodes.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          vx: (Math.random() - 0.5) * 0.16,
-          vy: (Math.random() - 0.5) * 0.16,
-          r: Math.random() * 1.5 + 0.7
+          x: x, y: y,
+          vx: (Math.random() - 0.5) * 0.14,
+          vy: (Math.random() - 0.5) * 0.14,
+          r: Math.random() * 1.3 + 0.8
         });
       }
     }
 
     function draw() {
       ctx.clearRect(0, 0, width, height);
-      var linkDist = Math.min(150, width * 0.16);
+
+      // the silhouette itself, very faint
+      ctx.globalAlpha = narrow ? 0.2 : 0.34;
+      ctx.strokeStyle = stroke;
+      ctx.lineWidth = 1;
+      ctx.stroke(brainPath);
+
       for (var i = 0; i < nodes.length; i++) {
         var n = nodes[i];
-        n.x += n.vx; n.y += n.vy;
-        if (n.x < 0 || n.x > width) n.vx *= -1;
-        if (n.y < 0 || n.y > height) n.vy *= -1;
+        var nx = n.x + n.vx, ny = n.y + n.vy;
+        if (inside(nx, ny)) { n.x = nx; n.y = ny; }
+        else { n.vx *= -1; n.vy *= -1; }          // turn back at the boundary
 
         for (var j = i + 1; j < nodes.length; j++) {
-          var m = nodes[j];
-          var dx = n.x - m.x, dy = n.y - m.y;
+          var m2 = nodes[j];
+          var dx = n.x - m2.x, dy = n.y - m2.y;
           var d = Math.sqrt(dx * dx + dy * dy);
           if (d < linkDist) {
-            ctx.globalAlpha = (1 - d / linkDist) * 0.16;
+            ctx.globalAlpha = (1 - d / linkDist) * (narrow ? 0.14 : 0.26);
             ctx.strokeStyle = stroke;
             ctx.lineWidth = 0.7;
             ctx.beginPath();
             ctx.moveTo(n.x, n.y);
-            ctx.lineTo(m.x, m.y);
+            ctx.lineTo(m2.x, m2.y);
             ctx.stroke();
           }
         }
 
         var pdx = n.x - pointer.x, pdy = n.y - pointer.y;
-        var pd = Math.sqrt(pdx * pdx + pdy * pdy);
-        var near = pd < 130;
-        ctx.globalAlpha = near ? 0.55 : 0.3;
+        var near = Math.sqrt(pdx * pdx + pdy * pdy) < 120;
+        ctx.globalAlpha = (near ? 0.85 : 0.5) * (narrow ? 0.55 : 1);
         ctx.fillStyle = stroke;
         ctx.beginPath();
-        ctx.arc(n.x, n.y, n.r + (near ? 0.8 : 0), 0, Math.PI * 2);
+        ctx.arc(n.x, n.y, n.r + (near ? 0.9 : 0), 0, Math.PI * 2);
         ctx.fill();
       }
       ctx.globalAlpha = 1;
@@ -253,7 +308,6 @@
     var themeWatcher = new MutationObserver(function () { stroke = accentColor(); });
     themeWatcher.observe(root, { attributes: true, attributeFilter: ["data-theme"] });
 
-    // Pause when the hero scrolls out of view.
     if ("IntersectionObserver" in window) {
       var heroObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
@@ -265,7 +319,7 @@
     }
 
     resize();
-    rafId = window.requestAnimationFrame(draw);
+    if (nodes.length) rafId = window.requestAnimationFrame(draw);
   }
 
   /* ---------- Current year in footer ---------- */
