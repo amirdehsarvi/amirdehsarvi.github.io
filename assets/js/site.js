@@ -172,9 +172,11 @@
     });
   }
 
-  /* ---------- Hero background: a brain-shaped connectome field ----------
-     Nodes are sampled inside a sagittal brain silhouette and stay inside it as
-     they drift; links form between near neighbours and brighten under the cursor. */
+  /* ---------- Hero: interactive brain mesh ----------
+     The lateral brain silhouette is sampled into a polygon, filled with a
+     jittered grid of vertices and Delaunay-triangulated into a mesh. Moving the
+     cursor near a vertex fires it; impulses travel along mesh edges and fire the
+     vertices they reach, so cascades ripple across the brain and fade out. */
   var BRAIN_PATH = "M 20 70 C 17 48 33 30 56 22 C 82 12 116 12 141 22 C 166 32 184 51 186 72 " +
     "C 187 88 179 97 167 100 C 178 107 180 121 168 127 C 158 133 146 131 140 124 " +
     "C 139 134 137 144 134 150 C 131 156 121 156 118 150 C 115 143 117 132 118 122 " +
@@ -183,143 +185,314 @@
   var BRAIN_W = 206, BRAIN_H = 170;
 
   var canvas = document.querySelector("[data-hero-canvas]");
-  if (canvas && !reduceMotion && canvas.getContext && window.Path2D && window.DOMMatrix) {
+  if (canvas && canvas.getContext) {
     var ctx = canvas.getContext("2d");
-    var nodes = [];
-    var width = 0, height = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var pointer = { x: -9999, y: -9999 };
-    var rafId = null;
-    var brainPath = null, mask = null, linkDist = 60, narrow = false;
+    var W = 0, H = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var nodes = [], edges = [], tris = [], impulses = [];
+    var mouse = { x: -1e9, y: -1e9 };
+    var rafId = null, last = 0, ambient = 1400, narrow = false;
 
-    function accentColor() {
-      var c = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();
-      return c || "#1c6b4a";
+    function cssVar(name, fallback) {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+      return v || fallback;
     }
-    var stroke = accentColor();
+    var colEdge, colVert, colHot;
+    function readPalette() {
+      colEdge = cssVar("--accent", "#1c6b4a");
+      colVert = cssVar("--accent", "#1c6b4a");
+      colHot  = cssVar("--brain-hot", "#d98d1f");
+    }
+    readPalette();
 
-    function buildBrain() {
-      // fit the silhouette into the hero, biased right so it sits behind the portrait
-      // large enough that the silhouette still reads around the text and portrait
-      // narrow screens: sit it low and faint so it never fights the copy
-      narrow = width < 800;
+    var rand = function (a, b) { return a + Math.random() * (b - a); };
+
+    /* sample the outline path into a polygon */
+    function outlinePolygon(ox, oy, scale) {
+      var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("width", "0"); svg.setAttribute("height", "0");
+      svg.style.position = "absolute"; svg.style.opacity = "0"; svg.style.pointerEvents = "none";
+      var pathEl = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      pathEl.setAttribute("d", BRAIN_PATH);
+      svg.appendChild(pathEl); document.body.appendChild(svg);
+      var poly = [], total = 0;
+      try { total = pathEl.getTotalLength(); } catch (e) { total = 0; }
+      if (total) {
+        var steps = 54;
+        for (var i = 0; i < steps; i++) {
+          var pt = pathEl.getPointAtLength((i / steps) * total);
+          poly.push([ox + pt.x * scale, oy + pt.y * scale]);
+        }
+      }
+      document.body.removeChild(svg);
+      return poly;
+    }
+
+    function pointInPoly(x, y, poly) {
+      var inside = false;
+      for (var i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+        var xi = poly[i][0], yi = poly[i][1], xj = poly[j][0], yj = poly[j][1];
+        if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+      }
+      return inside;
+    }
+
+    /* Bowyer–Watson Delaunay triangulation */
+    function triangulate(pts) {
+      var n = pts.length;
+      if (n < 3) return [];
+      var minx = Infinity, miny = Infinity, maxx = -Infinity, maxy = -Infinity;
+      for (var i = 0; i < n; i++) {
+        minx = Math.min(minx, pts[i].x); miny = Math.min(miny, pts[i].y);
+        maxx = Math.max(maxx, pts[i].x); maxy = Math.max(maxy, pts[i].y);
+      }
+      var d = Math.max(maxx - minx, maxy - miny) * 10 || 1;
+      var P = pts.slice();
+      P.push({ x: minx - d, y: miny - d }, { x: maxx + d, y: miny - d }, { x: (minx + maxx) / 2, y: maxy + d });
+      var tri = [[n, n + 1, n + 2]];
+
+      function circum(t) {
+        var a = P[t[0]], b = P[t[1]], c = P[t[2]];
+        var D = 2 * (a.x * (b.y - c.y) + b.x * (c.y - a.y) + c.x * (a.y - b.y));
+        if (Math.abs(D) < 1e-12) return { x: 0, y: 0, r2: -1 };
+        var a2 = a.x * a.x + a.y * a.y, b2 = b.x * b.x + b.y * b.y, c2 = c.x * c.x + c.y * c.y;
+        var ux = (a2 * (b.y - c.y) + b2 * (c.y - a.y) + c2 * (a.y - b.y)) / D;
+        var uy = (a2 * (c.x - b.x) + b2 * (a.x - c.x) + c2 * (b.x - a.x)) / D;
+        return { x: ux, y: uy, r2: (a.x - ux) * (a.x - ux) + (a.y - uy) * (a.y - uy) };
+      }
+
+      for (var k = 0; k < n; k++) {
+        var p = P[k], bad = [], poly = [];
+        for (var t = tri.length - 1; t >= 0; t--) {
+          var cc = circum(tri[t]);
+          if (cc.r2 > 0 && (p.x - cc.x) * (p.x - cc.x) + (p.y - cc.y) * (p.y - cc.y) < cc.r2) {
+            bad.push(tri[t]); tri.splice(t, 1);
+          }
+        }
+        for (var bi = 0; bi < bad.length; bi++) {
+          for (var e = 0; e < 3; e++) {
+            var ea = bad[bi][e], eb = bad[bi][(e + 1) % 3], shared = false;
+            for (var bj = 0; bj < bad.length && !shared; bj++) {
+              if (bj === bi) continue;
+              for (var f = 0; f < 3; f++) {
+                var fa = bad[bj][f], fb = bad[bj][(f + 1) % 3];
+                if ((ea === fa && eb === fb) || (ea === fb && eb === fa)) { shared = true; break; }
+              }
+            }
+            if (!shared) poly.push([ea, eb]);
+          }
+        }
+        for (var q = 0; q < poly.length; q++) tri.push([poly[q][0], poly[q][1], k]);
+      }
+      return tri.filter(function (t) { return t[0] < n && t[1] < n && t[2] < n; });
+    }
+
+    function build() {
+      nodes = []; edges = []; tris = []; impulses = [];
+      narrow = W < 800;
       var scale = narrow
-        ? Math.min((width * 0.78) / BRAIN_W, (height * 0.42) / BRAIN_H)
-        : Math.min((width * 0.52) / BRAIN_W, (height * 0.86) / BRAIN_H);
-      var w = BRAIN_W * scale, h = BRAIN_H * scale;
-      var ox = (narrow ? width * 0.60 : width * 0.72) - w / 2;
-      var oy = (narrow ? height * 0.80 : height * 0.50) - h / 2;
-      brainPath = new Path2D();
-      brainPath.addPath(new Path2D(BRAIN_PATH), new DOMMatrix().translate(ox, oy).scale(scale));
-      linkDist = Math.max(38, scale * 17);
+        ? Math.min((W * 0.78) / BRAIN_W, (H * 0.42) / BRAIN_H)
+        : Math.min((W * 0.51) / BRAIN_W, (H * 0.86) / BRAIN_H);
+      var bw = BRAIN_W * scale, bh = BRAIN_H * scale;
+      var ox = (narrow ? W * 0.60 : W * 0.745) - bw / 2;
+      var oy = (narrow ? H * 0.80 : H * 0.50) - bh / 2;
 
-      // membership mask, one byte per CSS pixel — cheap to test every frame
-      var mc = document.createElement("canvas");
-      mc.width = Math.max(1, Math.round(width));
-      mc.height = Math.max(1, Math.round(height));
-      var mctx = mc.getContext("2d");
-      mctx.fillStyle = "#fff";
-      mctx.fill(brainPath);
-      var data = mctx.getImageData(0, 0, mc.width, mc.height).data;
-      var m = new Uint8Array(mc.width * mc.height);
-      for (var i = 0, p = 3; i < m.length; i++, p += 4) m[i] = data[p] > 128 ? 1 : 0;
-      mask = { w: mc.width, h: mc.height, d: m };
+      var poly = outlinePolygon(ox, oy, scale);
+      if (!poly.length) return;
+
+      var spacing = Math.max(24, bw / (narrow ? 10 : 14));
+      var i;
+      for (i = 0; i < poly.length; i++) {
+        nodes.push({ x: poly[i][0], y: poly[i][1], r: rand(1.9, 2.9), light: 0, refr: 0, nbrs: [] });
+      }
+      for (var gy = oy; gy < oy + bh; gy += spacing * 0.88) {
+        for (var gx = ox; gx < ox + bw; gx += spacing) {
+          var stagger = (Math.round((gy - oy) / (spacing * 0.88)) % 2) ? spacing / 2 : 0;
+          var x = gx + stagger + rand(-spacing * 0.24, spacing * 0.24);
+          var y = gy + rand(-spacing * 0.22, spacing * 0.22);
+          if (!pointInPoly(x, y, poly)) continue;
+          var clear = true;
+          for (i = 0; i < poly.length; i++) {
+            var ddx = poly[i][0] - x, ddy = poly[i][1] - y;
+            if (ddx * ddx + ddy * ddy < (spacing * 0.5) * (spacing * 0.5)) { clear = false; break; }
+          }
+          if (!clear) continue;
+          nodes.push({ x: x, y: y, r: rand(1.9, 3.1), light: 0, refr: 0, nbrs: [] });
+        }
+      }
+
+      var triangles = triangulate(nodes), seen = {};
+      for (var ti = 0; ti < triangles.length; ti++) {
+        var t = triangles[ti];
+        var cx = (nodes[t[0]].x + nodes[t[1]].x + nodes[t[2]].x) / 3;
+        var cy = (nodes[t[0]].y + nodes[t[1]].y + nodes[t[2]].y) / 3;
+        if (!pointInPoly(cx, cy, poly)) continue;
+        tris.push(t);
+        for (var e2 = 0; e2 < 3; e2++) {
+          var ia = t[e2], ib = t[(e2 + 1) % 3];
+          var key = ia < ib ? ia + "-" + ib : ib + "-" + ia;
+          if (seen[key]) continue;
+          seen[key] = 1;
+          var a = nodes[ia], b = nodes[ib];
+          var ed = { a: a, b: b, ia: ia, ib: ib, hot: 0, len: Math.hypot(b.x - a.x, b.y - a.y) || 1 };
+          edges.push(ed);
+          a.nbrs.push({ e: ed, to: ib });
+          b.nbrs.push({ e: ed, to: ia });
+        }
+      }
     }
 
-    function inside(x, y) {
-      if (!mask || x < 0 || y < 0 || x >= mask.w || y >= mask.h) return false;
-      return mask.d[(y | 0) * mask.w + (x | 0)] === 1;
+    function fire(i, from, gen) {
+      var n = nodes[i];
+      if (!n || n.refr > 0) return;
+      n.light = 1; n.refr = 1100;
+      if (reduceMotion || gen > 9) return;
+      var cands = [];
+      for (var k = 0; k < n.nbrs.length; k++) {
+        if (n.nbrs[k].to !== from && nodes[n.nbrs[k].to].refr <= 0) cands.push(n.nbrs[k]);
+      }
+      for (var s = cands.length - 1; s > 0; s--) {
+        var j = Math.floor(Math.random() * (s + 1)), tmp = cands[s]; cands[s] = cands[j]; cands[j] = tmp;
+      }
+      var sent = 0;
+      for (var c = 0; c < cands.length && sent < 3; c++) {
+        var p = gen === 0 ? 0.95 : gen < 3 ? 0.6 : gen < 6 ? 0.4 : 0.24;
+        if (Math.random() > p) continue;
+        impulses.push({ e: cands[c].e, t: 0, speed: rand(0.9, 1.4) * 250 / cands[c].e.len,
+                        gen: gen + 1, from: i, to: cands[c].to, fromNode: n });
+        sent++;
+      }
+    }
+
+    function nearest(x, y, maxD) {
+      var best = -1, bd = maxD * maxD;
+      for (var i = 0; i < nodes.length; i++) {
+        var dx = nodes[i].x - x, dy = nodes[i].y - y, d = dx * dx + dy * dy;
+        if (d < bd) { bd = d; best = i; }
+      }
+      return best;
+    }
+
+    function update(dt) {
+      var hi = nearest(mouse.x, mouse.y, 36);
+      if (hi >= 0) fire(hi, -1, 0);
+
+      if (!reduceMotion) {
+        ambient -= dt;
+        if (ambient <= 0 && impulses.length < 20) {
+          fire(Math.floor(Math.random() * nodes.length), -1, 4);
+          ambient = rand(2000, 4600);
+        }
+      }
+      for (var i = 0; i < nodes.length; i++) {
+        if (nodes[i].refr > 0) nodes[i].refr -= dt;
+        if (nodes[i].light > 0) nodes[i].light = Math.max(0, nodes[i].light - dt / 900);
+      }
+      for (var e = 0; e < edges.length; e++) {
+        if (edges[e].hot > 0) edges[e].hot = Math.max(0, edges[e].hot - dt / 700);
+      }
+      for (var k = impulses.length - 1; k >= 0; k--) {
+        var im = impulses[k];
+        im.t += im.speed * dt / 1000;
+        im.e.hot = Math.max(im.e.hot, 0.9);
+        if (im.t >= 1) { impulses.splice(k, 1); fire(im.to, im.from, im.gen); }
+      }
+    }
+
+    function hexToRgb(h) {
+      h = h.replace("#", "");
+      if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+      var v = parseInt(h, 16);
+      return [(v >> 16) & 255, (v >> 8) & 255, v & 255];
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      var eRGB = hexToRgb(colEdge), hRGB = hexToRgb(colHot);
+      var base = narrow ? 0.5 : 1;
+
+      // edges
+      for (var i = 0; i < edges.length; i++) {
+        var e = edges[i];
+        ctx.beginPath();
+        ctx.moveTo(e.a.x, e.a.y); ctx.lineTo(e.b.x, e.b.y);
+        if (e.hot > 0.02) {
+          ctx.strokeStyle = "rgba(" + hRGB + "," + (0.55 * e.hot * base).toFixed(3) + ")";
+          ctx.lineWidth = 1.1;
+        } else {
+          ctx.strokeStyle = "rgba(" + eRGB + "," + (0.2 * base).toFixed(3) + ")";
+          ctx.lineWidth = 0.7;
+        }
+        ctx.stroke();
+      }
+
+      // travelling impulses
+      for (var k = 0; k < impulses.length; k++) {
+        var im = impulses[k], T = Math.min(1, Math.max(0, im.t));
+        var forward = im.e.ia === im.from;
+        var ax = forward ? im.e.a.x : im.e.b.x, ay = forward ? im.e.a.y : im.e.b.y;
+        var bx = forward ? im.e.b.x : im.e.a.x, by = forward ? im.e.b.y : im.e.a.y;
+        var px = ax + (bx - ax) * T, py = ay + (by - ay) * T;
+        ctx.beginPath(); ctx.arc(px, py, 2.2, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(" + hRGB + "," + (0.95 * base).toFixed(3) + ")";
+        ctx.fill();
+      }
+
+      // vertices
+      for (var n = 0; n < nodes.length; n++) {
+        var v = nodes[n];
+        if (v.light > 0.02) {
+          ctx.beginPath(); ctx.arc(v.x, v.y, v.r + 1.6 * v.light, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(" + hRGB + "," + (0.9 * v.light * base).toFixed(3) + ")";
+          ctx.fill();
+        } else {
+          ctx.beginPath(); ctx.arc(v.x, v.y, v.r, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(" + eRGB + "," + (0.42 * base).toFixed(3) + ")";
+          ctx.fill();
+        }
+      }
+    }
+
+    function frame(ts) {
+      var dt = Math.min(50, ts - (last || ts));
+      last = ts;
+      update(dt);
+      draw();
+      rafId = window.requestAnimationFrame(frame);
     }
 
     function resize() {
       var rect = canvas.getBoundingClientRect();
-      width = rect.width; height = rect.height;
-      if (!width || !height) return;
-      canvas.width = Math.floor(width * dpr);
-      canvas.height = Math.floor(height * dpr);
+      W = rect.width; H = rect.height;
+      if (!W || !H) return;
+      canvas.width = Math.round(W * dpr);
+      canvas.height = Math.round(H * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      buildBrain();
-
-      var area = 0;
-      for (var q = 0; q < mask.d.length; q++) area += mask.d[q];
-      var count = Math.round(Math.min(190, Math.max(60, area / 1700)));
-      nodes = [];
-      var guard = 0;
-      while (nodes.length < count && guard++ < count * 400) {
-        var x = Math.random() * width, y = Math.random() * height;
-        if (!inside(x, y)) continue;
-        nodes.push({
-          x: x, y: y,
-          vx: (Math.random() - 0.5) * 0.14,
-          vy: (Math.random() - 0.5) * 0.14,
-          r: Math.random() * 1.3 + 0.8
-        });
-      }
+      build();
+      draw();
     }
 
-    function draw() {
-      ctx.clearRect(0, 0, width, height);
-
-      // the silhouette itself, very faint
-      ctx.globalAlpha = narrow ? 0.2 : 0.34;
-      ctx.strokeStyle = stroke;
-      ctx.lineWidth = 1;
-      ctx.stroke(brainPath);
-
-      for (var i = 0; i < nodes.length; i++) {
-        var n = nodes[i];
-        var nx = n.x + n.vx, ny = n.y + n.vy;
-        if (inside(nx, ny)) { n.x = nx; n.y = ny; }
-        else { n.vx *= -1; n.vy *= -1; }          // turn back at the boundary
-
-        for (var j = i + 1; j < nodes.length; j++) {
-          var m2 = nodes[j];
-          var dx = n.x - m2.x, dy = n.y - m2.y;
-          var d = Math.sqrt(dx * dx + dy * dy);
-          if (d < linkDist) {
-            ctx.globalAlpha = (1 - d / linkDist) * (narrow ? 0.14 : 0.26);
-            ctx.strokeStyle = stroke;
-            ctx.lineWidth = 0.7;
-            ctx.beginPath();
-            ctx.moveTo(n.x, n.y);
-            ctx.lineTo(m2.x, m2.y);
-            ctx.stroke();
-          }
-        }
-
-        var pdx = n.x - pointer.x, pdy = n.y - pointer.y;
-        var near = Math.sqrt(pdx * pdx + pdy * pdy) < 120;
-        ctx.globalAlpha = (near ? 0.85 : 0.5) * (narrow ? 0.55 : 1);
-        ctx.fillStyle = stroke;
-        ctx.beginPath();
-        ctx.arc(n.x, n.y, n.r + (near ? 0.9 : 0), 0, Math.PI * 2);
-        ctx.fill();
-      }
-      ctx.globalAlpha = 1;
-      rafId = window.requestAnimationFrame(draw);
-    }
-
-    window.addEventListener("resize", function () { resize(); });
-    window.addEventListener("pointermove", function (e) {
-      var rect = canvas.getBoundingClientRect();
-      pointer.x = e.clientX - rect.left;
-      pointer.y = e.clientY - rect.top;
+    window.addEventListener("resize", resize);
+    window.addEventListener("pointermove", function (ev) {
+      var r = canvas.getBoundingClientRect();
+      mouse.x = ev.clientX - r.left;
+      mouse.y = ev.clientY - r.top;
     }, { passive: true });
 
-    var themeWatcher = new MutationObserver(function () { stroke = accentColor(); });
-    themeWatcher.observe(root, { attributes: true, attributeFilter: ["data-theme"] });
-
-    if ("IntersectionObserver" in window) {
-      var heroObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting && rafId === null) { rafId = window.requestAnimationFrame(draw); }
-          else if (!entry.isIntersecting && rafId !== null) { window.cancelAnimationFrame(rafId); rafId = null; }
-        });
-      }, { threshold: 0 });
-      heroObserver.observe(canvas);
-    }
+    new MutationObserver(function () { readPalette(); draw(); })
+      .observe(root, { attributes: true, attributeFilter: ["data-theme"] });
 
     resize();
-    if (nodes.length) rafId = window.requestAnimationFrame(draw);
+
+    if (!reduceMotion && "IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting && rafId === null) { last = 0; rafId = window.requestAnimationFrame(frame); }
+          else if (!en.isIntersecting && rafId !== null) { window.cancelAnimationFrame(rafId); rafId = null; }
+        });
+      }, { threshold: 0 }).observe(canvas);
+    } else if (!reduceMotion) {
+      rafId = window.requestAnimationFrame(frame);
+    }
   }
 
   /* ---------- Current year in footer ---------- */
