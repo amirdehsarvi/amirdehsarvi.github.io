@@ -299,7 +299,7 @@
       var poly = outlinePolygon(ox, oy, scale);
       if (!poly.length) return;
 
-      var spacing = Math.max(24, bw / (narrow ? 10 : 14));
+      var spacing = Math.max(20, bw / (narrow ? 11 : 17));
       var i;
       for (i = 0; i < poly.length; i++) {
         nodes.push({ x: poly[i][0], y: poly[i][1], r: rand(1.9, 2.9), light: 0, refr: 0, nbrs: [] });
@@ -344,8 +344,8 @@
     function fire(i, from, gen) {
       var n = nodes[i];
       if (!n || n.refr > 0) return;
-      n.light = 1; n.refr = 1100;
-      if (reduceMotion || gen > 9) return;
+      n.light = 1; n.refr = 1200;
+      if (reduceMotion || gen > 60 || impulses.length > 600) return;
       var cands = [];
       for (var k = 0; k < n.nbrs.length; k++) {
         if (n.nbrs[k].to !== from && nodes[n.nbrs[k].to].refr <= 0) cands.push(n.nbrs[k]);
@@ -353,11 +353,12 @@
       for (var s = cands.length - 1; s > 0; s--) {
         var j = Math.floor(Math.random() * (s + 1)), tmp = cands[s]; cands[s] = cands[j]; cands[j] = tmp;
       }
+      // high, near-constant probability so the front keeps moving outward;
+      // refractory periods stop it doubling back, so it sweeps the brain once
       var sent = 0;
-      for (var c = 0; c < cands.length && sent < 3; c++) {
-        var p = gen === 0 ? 0.95 : gen < 3 ? 0.6 : gen < 6 ? 0.4 : 0.24;
-        if (Math.random() > p) continue;
-        impulses.push({ e: cands[c].e, t: 0, speed: rand(0.9, 1.4) * 250 / cands[c].e.len,
+      for (var c = 0; c < cands.length && sent < 4; c++) {
+        if (Math.random() > 0.88) continue;
+        impulses.push({ e: cands[c].e, t: 0, speed: rand(1.0, 1.5) * 330 / cands[c].e.len,
                         gen: gen + 1, from: i, to: cands[c].to, fromNode: n });
         sent++;
       }
@@ -378,9 +379,9 @@
 
       if (!reduceMotion) {
         ambient -= dt;
-        if (ambient <= 0 && impulses.length < 20) {
-          fire(Math.floor(Math.random() * nodes.length), -1, 4);
-          ambient = rand(2000, 4600);
+        if (ambient <= 0 && impulses.length < 12) {
+          fire(Math.floor(Math.random() * nodes.length), -1, 0);
+          ambient = rand(3800, 7200);
         }
       }
       for (var i = 0; i < nodes.length; i++) {

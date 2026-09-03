@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 20 20"><title>OOjs_UI_icon_academic-progressive</title><path d="M12.13,14,12,14l-.13,0L7,12.63V16c0,1.1,2.24,2,5,2s5-.9,5-2V12.63Z" fill="#36c"/><path d="M21.13,9.52l-9-2.5a.39.39,0,0,0-.26,0l-9,2.5a.5.5,0,0,0,0,1l9,2.5L12,13l.13,0,9-2.5a.5.5,0,0,0,0-1Z" fill="#36c"/><path d="M19.5,14.5a1,1,0,0,0-.5-.85V10H18v3.65a1,1,0,0,0-.5.85,1,1,0,0,0,.45.81L17.5,18c0,.37.45.67,1,.67s1-.3,1-.67l-.45-2.69A1,1,0,0,0,19.5,14.5Z" fill="#36c"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Brain">
+  <title>Amir Dehsarvi</title>
+  <rect width="512" height="512" rx="104" fill="#1c6b4a"/>
+  <g transform="translate(40 78) scale(2.12)">
+    <path fill="#ffffff" d="M 20 70 C 17 48 33 30 56 22 C 82 12 116 12 141 22 C 166 32 184 51 186 72
+      C 187 88 179 97 167 100 C 178 107 180 121 168 127 C 158 133 146 131 140 124
+      C 139 134 137 144 134 150 C 131 156 121 156 118 150 C 115 143 117 132 118 122
+      C 110 126 100 128 90 128 C 76 128 65 122 59 113 C 55 106 55 99 57 92
+      C 48 97 37 94 30 87 C 23 80 20 76 20 70 Z"/>
+    <g fill="none" stroke="#1c6b4a" stroke-width="7" stroke-linecap="round">
+      <path d="M 46 60 C 68 46 96 50 114 64"/>
+      <path d="M 70 96 C 96 84 126 88 148 100"/>
+      <path d="M 124 42 C 146 50 162 64 170 80"/>
+    </g>
+  </g>
+</svg>
